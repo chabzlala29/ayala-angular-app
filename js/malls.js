@@ -29,8 +29,10 @@ function StoresCtrl($scope, $routeParams, $http, Store){
 	$scope.alphabets = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
 	$scope.stores = Store.query({mallId: $routeParams.mallId});
 	$scope.mallId = $routeParams.mallId;
-	console.log($routeParams.mallId);
-	console.log($scope.stores)
+	$scope.query_category = '';
+	$http.get('data/categories.json').success(function(data){
+		$scope.categories = data;
+	});
 	$scope.myFilter = function(letter){
 		var $array = new Array();
 		if(letter){
@@ -41,6 +43,27 @@ function StoresCtrl($scope, $routeParams, $http, Store){
 			});
 		}
 		return $array;
+	}
+
+	$scope.changeCat = function(category){
+		$scope.query_category = category;
+	}
+
+	$scope.myQuery = function(){
+		$array2 = new Array();
+		
+		if($scope.query_category){
+			// console.log($scope.stores[0]);
+			$.each($scope.stores, function(index, item){
+				if(typeof item.categories[0] != 'undefined') {
+					if(item.categories[0].name == $scope.query_category){
+						$array2.push(item.store_name);
+					}
+				}
+			});
+		}
+		return $array2;
+
 	}
 		
 	$http.get('data/malls.json').success(function(data) {
