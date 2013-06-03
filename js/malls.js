@@ -88,6 +88,11 @@ function StoreDetailsCtrl($scope, $routeParams, $http){
 	});
 
 }
+
+function EventsCtrl($scope, $routeParams, $http){
+	$scope.test = "TEST"
+}
+
 function goBack(){
 	window.history.back();
 }
