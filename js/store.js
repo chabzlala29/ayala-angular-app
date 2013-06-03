@@ -1,0 +1,11 @@
+$(function(){
+	$('#search-store').keyup(function(){
+		if($(this).val()){
+			$('.alpha-container').css('display','none');
+			$('#hidden-query').css('display','block');
+		}else{
+			$('.alpha-container').css('display','block');
+			$('#hidden-query').css('display','none');
+		}
+	})
+});

@@ -1,0 +1,53 @@
+<div class="wrapper">
+		<div class="header-logo">
+			<div class="button bordered back" onclick="goBack();">
+                <span class="pointer"></span>
+                <div class="content">
+                    <span class="label">Back</span>
+                </div>
+            </div>
+			<h2 id="store-name">{{name}}</h2>
+		</div>
+	</div>
+	<div class="main-content">
+		<div class="black-container" id="black-container"> 
+			<div id="store-pic">
+				<img class="store-pic" src="http://ayala360.net" width="304px" height="235px">
+			</div>
+			<div class="store-details-scrollable" id="scrollable">
+				<p class="store-contact">{{location}}</p>
+				<p class="store-details"></p>
+			</div>
+			<div class="btn-wrapper">
+				<div class="btn-stores">
+					<a href="promos.html" class="btn-controls deals"></a>
+					<a class="favorite" id="btn-add-favorite"></a>
+					<a href="#" class="btn-controls show-map"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="bottom-nav">
+		<ul class="main-nav">
+			<li class="nav">
+				<a href="mall_features.html" id="home" class="active"></a>
+			</li>
+			<li class="nav">
+				<a href="check_in.html" id="check_in"></a>
+			</li>
+			<li class="nav">
+				<a href="favorites.html" id="favorites"></a>
+			</li>
+			<li class="nav">
+				<a href="share.html" id="share"></a>
+			</li>
+			<li class="nav">
+				<a href="prefs.html" id="prefs"></a>
+			</li>
+		</ul>
+	</div>
+	<form id="store_favorites" name="food_favorites" method="post" onsubmit="return addToFavorites();">
+		<input type="hidden" id="user_id" name="user_id">
+		<input type="hidden" id="user_id" name="store_id">
+		<input type="hidden" id="user_id" name="store_name">
+	</form>

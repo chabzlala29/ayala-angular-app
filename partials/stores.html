@@ -1,0 +1,93 @@
+<script type="text/javascript" src="js/store.js"></script>
+<div class="wrapper">
+		<div class="header-logo">
+			<div class="button bordered back" onclick="goBack();">
+                <span class="pointer"></span>
+                <div class="content">
+                    <span class="label" id="mall-name">{{mall_name}} Mall</span>
+                </div>
+            </div>
+		</div>
+	</div>
+
+	<div id="myModal" class="reveal-modal">
+		<div style="height: 40px !important; width:40px !important;">
+			<img src="img/ajax-loader2.gif" width="30px" height="30px">
+		</div>
+	</div>
+	
+	<div class="main-content">
+		<div class="header search-store">
+			<div style="margin-top:5px;">
+				<input type="text" id="search-store" ng-model="query" placeholder="Find a Store" size="40%">
+			</div>
+		</div>
+		<div class="filter">
+			<div class="btn-toolbar toolbar">
+                <div class="btn-group" id="filter-group">
+                    <a id="stores-name" class="btn filter-btn" href="javascript:void(0);" onclick="showAllStores();" style="background-color: rgb(85, 100, 129);color: rgb(255, 255, 255);">Name</i></a>
+                    <a id="category-name" class="btn filter-btn" href="javascript:void(0);" onclick="showCategoryList();">Category</i></a>
+                </div>
+            </div>
+		</div>
+		<div class="stores-container" id="stores-container" style="display:block;">
+			<div class="scrollable" id="grouped">
+				<div id="hidden-query" style="display:none">
+		            <div class="store-set">Search Results in "{{query}}"</div>
+					<ul class="nav nav-tabs nav-stacked list-name"><li ng-repeat="store in stores | filter:query"><a href="">{{store.store_name}}</a></li>
+					</ul>
+				</div>
+				<div class="alpha-container">
+					<div class="store-set">0-9</div>
+					<ul class="nav nav-tabs nav-stacked list-name">
+						<li ng-repeat="store in myFilter('0')"><a href="#/mall_feature/{{mallId}}/stores/{{$index}}">{{store.store_name}}</a></li>
+						<li ng-repeat="store in myFilter('1')"><a href="#/mall_feature/{{mallId}}/stores/{{$index}}">{{store.store_name}}</a></li>
+						<li ng-repeat="store in myFilter('3')"><a href="#/mall_feature/{{mallId}}/stores/{{$index}}">{{store.store_name}}</a></li>
+						<li ng-repeat="store in myFilter('4')"><a href="#/mall_feature/{{mallId}}/stores/{{$index}}">{{store.store_name}}</a></li>
+						<li ng-repeat="store in myFilter('5')"><a href="#/mall_feature/{{mallId}}/stores/{{$index}}">{{store.store_name}}</a></li>
+						<li ng-repeat="store in myFilter('6')"><a href="#/mall_feature/{{mallId}}/stores/{{$index}}">{{store.store_name}}</a></li>
+						<li ng-repeat="store in myFilter('7')"><a href="#/mall_feature/{{mallId}}/stores/{{$index}}">{{store.store_name}}</a></li>
+						<li ng-repeat="store in myFilter('8')"><a href="#/mall_feature/{{mallId}}/stores/{{$index}}">{{store.store_name}}</a></li>
+						<li ng-repeat="store in myFilter('9')"><a href="#/mall_feature/{{mallId}}/stores/{{$index}}">{{store.store_name}}</a></li>
+					</ul>
+					<div ng-repeat="alphabet in alphabets">
+			            <div class="store-set">{{alphabet}}</div>
+						<ul class="nav nav-tabs nav-stacked list-name"><li ng-repeat="store in myFilter(alphabet)"><a href="#/mall_feature/{{mallId}}/stores/{{$index}}">{{store.store_name}}</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="stores-container" id="stores-by-category-container" style="display:none;">
+			<div class="scrollable" id="ungrouped">
+				<ul id="stores-by-category" class="nav nav-tabs nav-stacked list-name"></ul>
+			</div>
+		</div>
+		<div class="stores-container" id="categories-container" style="display: none;">
+			<div class="scrollable">
+				<ul id="categories" class="nav nav-tabs nav-stacked list-name">
+					<li><a href="javascript:void(0);" onclick="showAllStores();">All Categories</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="stores-container" id="searched-stores-container" style="display:none;"></div>
+	</div>
+	<div class="bottom-nav">
+		<ul class="main-nav">
+			<li class="nav">
+				<a href="mall_features.html" id="home" class="active"></a>
+			</li>
+			<li class="nav">
+				<a href="check_in.html" id="check_in"></a>
+			</li>
+			<li class="nav">
+				<a href="favorites.html" id="favorites"></a>
+			</li>
+			<li class="nav">
+				<a href="share.html" id="share"></a>
+			</li>
+			<li class="nav">
+				<a href="prefs.html" id="prefs"></a>
+			</li>
+		</ul>
+	</div>	

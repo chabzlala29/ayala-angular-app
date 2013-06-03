@@ -1,0 +1,20 @@
+
+<div class="wrapper">
+	<div class="header"><h2>{{title}}</h2></div>
+</div>
+<div class="main-content">
+		<div class="logo">
+			<a href="#"><img src="img/360Art/logo_mallMenu_190x64.png" width="190px" height="64px"></a>
+		</div>
+		<div class="mall-container">
+			<div class="mall-scrollable" id="scrollable">
+				<ul class="menu" id="menu">
+					<li class="option" ng-repeat="mall in malls">
+						<a href="#/{{mall.name}}/{{mall.id}}">
+							<img src="http://{{mall.logo_url}}" width="62px" height="62px">
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+</div>		
