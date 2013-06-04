@@ -1,0 +1,24 @@
+<div class="wrapper">
+	<div class="header-logo">
+		<div class="button bordered back" onclick="goBack('#/{{mall_name}}/{{mall_id}}/events')">
+            <span class="pointer"></span>
+            <div class="content">
+                <span class="label">Back</span>
+            </div>
+        </div>
+	</div>
+</div>
+<div class="main-content">
+	<div class="events-scrollable event-details-container" id="scrollable">
+		<div class="full-width" id="event-advert-banner">
+			<img src="http://{{advert_url}}" width="304px" height="235px" class="event-pic">
+		</div>
+		<h2 class="event-promo-title" id="event-title">{{event_title}}</h2>
+		<p class="event-promo-details" id="event-details">{{details}}</p>
+		<p class="period" id="event-period">{{period}}</p>
+		<p class="blue-green-label">Terms & Conditions</p>
+		<ul class="terms-disclaimer" id="event-terms"></ul>
+		<p class="blue-green-label">Disclaimer</p>
+		<ul class="terms-disclaimer" id="event-disclaimer"></ul>
+	</div>
+</div>

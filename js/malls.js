@@ -82,7 +82,25 @@ function StoreDetailsCtrl($scope, $routeParams, $http){
 
 function EventsCtrl($scope, $routeParams, Event){
 	$scope.mall_name = $routeParams.mallName;
+	$scope.mall_id = $routeParams.mallId;
 	$scope.events = Event.query({mallId: $routeParams.mallId});
+}
+
+function EventDetailsCtrl($scope, $routeParams, $http) {
+	$scope.mall_id = $routeParams.mallId;
+	$scope.mall_name = $routeParams.mallName;
+	$http.get('data/' + $routeParams.mallId + '/events.json').success(function(data) {
+		$.each(data, function(index, e) {
+			if (e.id == $routeParams.eventId) {
+				$scope.advert_url = e.advert_url;
+				$scope.event_title = e.headline;
+				$scope.details = e.description;
+				$scope.period = '<b>' + dateFormat(e.starts_at, 'mmm dd, yyyy') + '</b> - <b>' + dateFormat(e.ends_at, 'mmm dd, yyyy') + '</b>';
+				$scope.terms = '<li>- '+event_details.terms;
+				$scope.disclaimer = '<li>- '+event_details.disclaimer;
+			}
+		});
+	})
 }
 
 function FoodCtrl($scope, $routeParams, Store, Food){
