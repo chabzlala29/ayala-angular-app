@@ -12,5 +12,12 @@ angular.module('storeServices', ['ngResource']).
   });
 });
 
+angular.module('eventServices', ['ngResource']).
+    factory('Event', function($resource){
+  return $resource('data/:mallId/events.json', {}, {
+    query: {method:'GET', isArray:true}
+  });
+});
+
 
 

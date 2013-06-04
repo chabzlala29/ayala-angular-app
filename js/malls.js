@@ -89,8 +89,9 @@ function StoreDetailsCtrl($scope, $routeParams, $http){
 
 }
 
-function EventsCtrl($scope, $routeParams, $http){
-	$scope.test = "TEST"
+function EventsCtrl($scope, $routeParams, Event){
+	$scope.mall_name = $routeParams.mallName;
+	$scope.events = Event.query({mallId: $routeParams.mallId});
 }
 
 function goBack(){
