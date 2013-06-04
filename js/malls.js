@@ -6,7 +6,6 @@ function HomeCtrl($scope, Mall) {
   //   console.log(data);
   // });
   $scope.malls = Mall.query();
-  
   $scope.title = 'Ayala Malls'
   $scope.orderProp = 'position';
 

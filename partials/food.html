@@ -1,3 +1,19 @@
+<script type="text/javascript">
+	var $ = document; // shortcut
+	var cssId = 'myCss';  // you could encode the css path itself to generate id..
+	if (!$.getElementById(cssId))
+	{
+	    var head  = $.getElementsByTagName('head')[0];
+	    var link  = $.createElement('link');
+	    link.id   = cssId;
+	    link.rel  = 'stylesheet';
+	    link.type = 'text/css';
+	    link.href = 'css/bootstrap.css';
+	    link.media = 'all';
+	    head.appendChild(link);
+	}
+</script>
+
 <div class="wrapper">
 	<div class="header-logo">
 		<div class="button bordered back" onclick="goBack('#/{{mall_name}}/{{mall_id}}');">
@@ -19,7 +35,11 @@
 	<div class="food-container">
 		<div class="food-scrollable" id="scrollable">
 			<ul class="nav nav-tabs nav-stacked list-name" id="foods">
-				<li ng-repeat="food in foods"><a href="#/{{mall_name}}/{{mall_id}}/food/{{food.store_id}}/store-details"</a>{{stripName(food.name)}}<div class="subtitle">{{getCat(food.store_id)}}</div></li>
+				<li ng-repeat="food in foods">
+					<a href="#/{{mall_name}}/{{mall_id}}/food/{{food.store_id}}/store-details"</a>
+					{{stripName(food.name)}}
+					<div class="subtitle">{{getCat(food.store_id)}}</div>
+				</li>
 			</ul>
 		</div>
 	</div>

@@ -43,7 +43,7 @@ if (screen.width >= 320 && screen.width <= 720)  {
 }
 
 function goBackToMallFeatures() {
-    window.location.href = "mall_features.html";
+    window.location.href = "partials/mall_feature.html";
 }
 
 function goBackToSpecificPage(feature_id) {
@@ -69,6 +69,13 @@ function goBackToSpecificPage(feature_id) {
         window.location.href = "partials/cinema.html";
     } 
 }
+
+$.ready(function() {
+    $(".button").forEach(function(button) {
+        button.bind("touchstart", function() { button.addClass("touched"); });
+        button.bind("touchend", function() { button.removeClass("touched"); });
+    });
+});
 
 //lock to portrait orientaion 
 // window.addEventListener("orientationchange", function() {
