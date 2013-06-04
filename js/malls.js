@@ -94,6 +94,11 @@ function EventsCtrl($scope, $routeParams, Event){
 	$scope.events = Event.query({mallId: $routeParams.mallId});
 }
 
+function FoodCtrl($scope, $routeParams, Food){
+	$scope.mall_name = $routeParams.mallName;
+	$scope.foods = Food.query({mallId: $routeParams.mallId});
+}
+
 function goBack(){
 	window.history.back();
 }

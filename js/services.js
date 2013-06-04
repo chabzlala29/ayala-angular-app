@@ -19,5 +19,13 @@ angular.module('eventServices', ['ngResource']).
   });
 });
 
+angular.module('foodServices', ['ngResource']).
+    factory('Food', function($resource){
+  return $resource('data/:mallId/foods.json', {}, {
+    query: {method:'GET', isArray:true}
+  });
+});
+
+
 
 

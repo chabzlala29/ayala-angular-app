@@ -1,5 +1,13 @@
 $(function(){
 	$('#search-store').keyup(function(){
+		$('#stores-by-category-container').css('display','none');
+		$('#category-name').css('background-color', 'transparent');
+		$('#category-name').css('color', 'rgb(85, 100, 129)');
+		$('#stores-name').css('background-color', 'rgb(85, 100, 129)');
+		$('#stores-name').css('color', 'rgb(255, 255, 255)');
+		$('#stores-container').css('display','block');
+		$('#categories-container').css('display', 'none');
+		
 		if($(this).val()){
 			$('.alpha-container').css('display','none');
 			$('#hidden-query').css('display','block');

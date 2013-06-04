@@ -34,7 +34,7 @@
 			<div class="scrollable" id="grouped">
 				<div id="hidden-query" style="display:none">
 		            <div class="store-set">Search Results in "{{query}}"</div>
-					<ul class="nav nav-tabs nav-stacked list-name"><li ng-repeat="store in stores | filter:query"><a href="">{{store.store_name}}</a></li>
+					<ul class="nav nav-tabs nav-stacked list-name"><li ng-repeat="store in stores | filter:query"><a href="#/mall_feature/{{mallId}}/stores/{{$index}}">{{store.store_name}}</a></li>
 					</ul>
 				</div>
 				<div class="alpha-container">
@@ -61,7 +61,7 @@
 		<div class="stores-container" id="stores-by-category-container" style="display:none;">
 			<div class="scrollable" id="ungrouped">
 				<ul id="stores-by-category" class="nav nav-tabs nav-stacked list-name">
-					<li ng-repeat="store in myQuery(query_category)"><a>{{store}}</a></li>
+					<li ng-repeat="store in myQuery(query_category)"><a href="#/mall_feature/{{mallId}}/stores/{{$index}}">{{store}}</a></li>
 				</ul>
 			</div>
 		</div>
