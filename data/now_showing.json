@@ -1,0 +1,69 @@
+{
+  "Movie": {
+    "Now_Showing": [
+      {
+        "id": "5265",
+        "picture": "http://www.sureseats.com/images/events/movies/thumbnails/epic.gif",
+        "movie_title": "(2D) EPIC",
+        "synopsis": "EPIC is a 3D CG adventure comedy that reveals a fantastical world unlike any other. From the creators of ICE AGE and RIO, EPIC tells the story of an ongoing battle between the forces of good, who keep the natural world alive, and the forces of evil, who wish to destroy it. When a teenage girl finds herself magically transported into this secret universe, she teams up with an elite band of warriors and a crew of comical, larger-than-life figures, to save their world.",
+        "cast": "Amanda Seyfried, Beyonce Knowles, Colin Farrell & Josh Hutcherson"
+      },
+      {
+        "id": "5250",
+        "picture": "http://www.sureseats.com/images/events/movies/thumbnails/fast.gif",
+        "movie_title": "(2D) FAST & FURIOUS 6",
+        "synopsis": "After the events of Fast Five, professional criminal Dominic Toretto and his crew are wealthy, but their criminal records prevent them from returning to their home country. Following his attempts to apprehend them, Diplomatic Security Service (DSS) agent Luke Hobbs is forced to offer the crew a deal; he will give them all full pardons for their crimes if they will help him take down a lethally skilled mercenary organization led by a former British special forces officer turned criminal mastermind Owen Shaw and his ruthless second-in-command, Dominic's thought-dead lover, Letty Ortiz",
+        "cast": "Vin Diesel, Paul Walker, Dwayne Johnson &  Luke Evans"
+      },
+      {
+        "id": "5274",
+        "picture": "http://www.sureseats.com/images/events/movies/thumbnails/hangover.gif",
+        "movie_title": "(2D) HANG-OVER 3",
+        "synopsis": "\"The Hangover Part III\" is the third and final film in director Todd Phillips' record-shattering comedy franchise. This time, there's no wedding. No bachelor party. What could go wrong, right? But when the Wolfpack hits the road, all bets are off.",
+        "cast": "Bradley Cooper, Zach Galifianakis, Zach Galifianakis & Ken Jeong"
+      },
+      {
+        "id": "5276",
+        "picture": "http://www.sureseats.com/images/events/movies/thumbnails/seeme.gif",
+        "movie_title": "(2D) NOW YOU SEE ME",
+        "synopsis": "NOW YOU SEE ME pits an elite FBI squad in a game of cat and mouse against \"The Four Horsemen\", a super-team of the world's greatest illusionists. \"The Four Horsemen\" pull off a series of daring heists against corrupt business leaders during their performances, showering the stolen profits on their audiences while staying one step ahead of the law. ",
+        "cast": "Jesse Eisenberg, Morgan Freeman,  Mark Ruffalo &  Woody Harrelson"
+      },
+      {
+        "id": "5279",
+        "picture": "http://www.sureseats.com/images/events/movies/thumbnails/jurassic.gif",
+        "movie_title": "(3D) JURASSIC PARK",
+        "synopsis": "Steven Spielberg's phenomenally successful sci-fi adventure thriller is graced by state-of-the-art special effects from the team of Stan Winston, Phil Tippett and Michael Lantieri from George Lucas's Industrial Light & Magic. The film follows two dinosaur experts -- Dr. Alan Grant (Sam Neill) and Dr. Ellie Sattler Laura Dern) -- as they are invited by eccentric millionaire John Hammond (Richard Attenborough) to preview his new amusement park on an island off Costa Rica.",
+        "cast": "Sam Neill, Laura Dern, Jeff Goldblum & Richard Attenborough"
+      },
+      {
+        "id": "5257",
+        "picture": "http://www.sureseats.com/images/events/movies/thumbnails/bromance.gif",
+        "movie_title": "BROMANCE: MY BROTHER'S ROMANCE",
+        "synopsis": "The men twins represented by Zanjoe Marudo -- one gay, one straight -- as seen in \"Bromance\" are depending on actual persons, according to the supervising producer of the future comedy film.As the twins, Marudo's characters are compelled to change locations after Brandy is put in the hospital from a street incident. Brando, with much demonstration, garden sheds his challenging personality to persuade person around him that he is his fun-loving, energetic twin.",
+        "cast": "Zanjoe Marudo & Cristine Reyes"
+      },
+      {
+        "id": "5268",
+        "picture": "http://www.sureseats.com/images/events/movies/thumbnails/epic.gif",
+        "movie_title": "EPIC",
+        "synopsis": "EPIC is a 3D CG adventure comedy that reveals a fantastical world unlike any other. From the creators of ICE AGE and RIO, EPIC tells the story of an ongoing battle between the forces of good, who keep the natural world alive, and the forces of evil, who wish to destroy it. When a teenage girl finds herself magically transported into this secret universe, she teams up with an elite band of warriors and a crew of comical, larger-than-life figures, to save their world",
+        "cast": "Amanda Seyfried, Beyonce Knowles, Colin Farrell & Josh Hutcherson"
+      },
+      {
+        "id": "5273",
+        "picture": "http://www.sureseats.com/images/events/movies/thumbnails/hangover.gif",
+        "movie_title": "HANG-OVER 3",
+        "synopsis": "\"The Hangover Part III\" is the third and final film in director Todd Phillips' record-shattering comedy franchise. This time, there's no wedding. No bachelor party. What could go wrong, right? But when the Wolfpack hits the road, all bets are off.",
+        "cast": "Bradley Cooper, Zach Galifianakis, Zach Galifianakis & Ken Jeong"
+      },
+      {
+        "id": "5275",
+        "picture": "http://www.sureseats.com/images/events/movies/thumbnails/seeme.gif",
+        "movie_title": "NOW YOU SEE ME",
+        "synopsis": "NOW YOU SEE ME pits an elite FBI squad in a game of cat and mouse against \"The Four Horsemen\", a super-team of the world's greatest illusionists. \"The Four Horsemen\" pull off a series of daring heists against corrupt business leaders during their performances, showering the stolen profits on their audiences while staying one step ahead of the law. ",
+        "cast": "Jesse Eisenberg, Morgan Freeman,  Mark Ruffalo &  Woody Harrelson"
+      }
+    ]
+  }
+}

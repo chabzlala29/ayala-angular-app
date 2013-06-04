@@ -1,19 +1,4 @@
-<script type="text/javascript">
-	var $ = document; // shortcut
-	var cssId = 'myCss';  // you could encode the css path itself to generate id..
-	if (!$.getElementById(cssId))
-	{
-	    var head  = $.getElementsByTagName('head')[0];
-	    var link  = $.createElement('link');
-	    link.id   = cssId;
-	    link.rel  = 'stylesheet';
-	    link.type = 'text/css';
-	    link.href = 'css/bootstrap.css';
-	    link.media = 'all';
-	    head.appendChild(link);
-	}
-</script>
-
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 <div class="wrapper">
 		<div class="header-logo">
 			<div class="button bordered back" onclick="goBackToMallFeatures();">

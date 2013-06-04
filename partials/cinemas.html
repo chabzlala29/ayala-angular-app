@@ -1,0 +1,52 @@
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<div class="wrapper">
+		<div class="header-logo">
+			<div class="button bordered back" onclick="goBack('#/{{mall_name}}/{{mall_id}}')">
+                <span class="pointer"></span>
+                <div class="content">
+                    <a class="label" id="mall-name">{{mall_name}}</a>
+                </div>
+            </div>
+		</div>
+	</div>
+
+	<div id="myModal" class="reveal-modal">
+		<div style="height: 40px !important; width:40px !important;">
+			<img src="img/ajax-loader2.gif" width="30px" height="30px">
+		</div>
+	</div>
+
+	<div class="main-content">
+		<div class="cinema-container">
+			<div id="now-showing-container" style="display:block;">
+				<div class="movie-scrollable" id="scrollable">
+					<ul class="nav nav-tabs nav-stacked list-name" id="now_showing">
+						<li ng-repeat="movie in movies">
+							<a href="">
+								<div class="movie-title" id="movie-title"></div><div class="subtitle">Next Showtime: </div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div id="coming-soon-container" style="display:none;">
+				<div class="movie-scrollable" id="scrollable">
+					<ul class="nav nav-tabs nav-stacked list-name" id="coming_soon"></ul>
+			    </div>
+			</div>
+		</div>
+		<div class="cinema-footer">
+			<a href="#now-showing-container" id="now-showing">
+				<div class="movie-sched-option">
+					<img id="now-showing-icon" src="img/360Art/now-showing-active.png" width="31.8px"><br/>
+					<span>Now Showing</span>
+				</div>
+			</a>
+			<a href="#coming-soon-container" id="coming-soon">
+				<div class="movie-sched-option">
+					<img id="coming-soon-icon" src="img/360Art/coming-soon.png" width="35px" height="40px"><br/>
+					<span>Coming Soon</span>
+				</div>
+			</a>
+		</div>
+	</div>

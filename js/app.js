@@ -8,6 +8,7 @@ angular.module('ayalamalls', ['mallServices', 'storeServices', 'eventServices', 
       when('/:mallName/:mallId/events', {templateUrl: 'partials/events.html', controller: EventsCtrl}).
       when('/:mallName/:mallId/food', {templateUrl: 'partials/food.html', controller: FoodCtrl}).
       when('/:mallName/:mallId/food/:storeId/store-details', {templateUrl: 'partials/food_details.html', controller: FoodDetailsCtrl}).
+      when('/:mallName/:mallId/cinemas', {templateUrl: 'partials/cinemas.html', controller: CinemasCtrl}).
       otherwise({redirectTo: '/'});
 }]);
 

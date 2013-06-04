@@ -1,3 +1,4 @@
+
 <div class="wrapper">
 		<div class="header">
 			<div class="button bordered back" onclick="goBack('#/');">
@@ -6,8 +7,8 @@
                     <span class="label">Back</span>
                 </div>
             </div>
+        	<h2 id="mall-name">{{mall_name}}</h2>
         </div>
-        <h2 id="mall-name">{{mall_name}}</h2>
 	</div>
 </div>
 <div class="main-content">
@@ -20,7 +21,7 @@
 				<a href="#/{{mall_name}}/{{mall_id}}/food" id="food"></a>
 			</li>
 			<li class="option">
-				<a href="cinema.html" id="cinema"></a>
+				<a href="#/{{mall_name}}/{{mall_id}}/cinemas" id="cinema"></a>
 			</li>
 			<li class="option">
 				<a href="#/{{mall_name}}/{{mall_id}}/events" id="events"></a>
@@ -67,4 +68,3 @@
 		</li>
 	</ul>
 </div>
-<script type="text/javascript" src="lib/fadeSlideShow.js"></script>

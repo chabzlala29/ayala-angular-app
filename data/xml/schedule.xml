@@ -1,0 +1,4271 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Movie>
+<Schedule>
+<id>14890</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 150.00</price>
+<screening>5/30/2013 10:45:00 AM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>14891</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 150.00</price>
+<screening>5/30/2013 1:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>14892</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 150.00</price>
+<screening>5/30/2013 4:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>14893</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 150.00</price>
+<screening>5/30/2013 7:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>14894</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 150.00</price>
+<screening>5/30/2013 9:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>14910</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 150.00</price>
+<screening>5/31/2013 10:45:00 AM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>14911</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 150.00</price>
+<screening>5/31/2013 1:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>14912</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 150.00</price>
+<screening>5/31/2013 4:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>14913</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 150.00</price>
+<screening>5/31/2013 7:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>14914</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 150.00</price>
+<screening>5/31/2013 9:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>14828</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 150.00</price>
+<screening>6/12/2013 9:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>14827</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) WORLD WAR Z</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 150.00</price>
+<screening>6/20/2013 9:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>14895</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) EPIC</movie_title>
+<rating>G</rating>
+<price>Php 150.00</price>
+<screening>5/30/2013 12:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>14896</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) EPIC</movie_title>
+<rating>G</rating>
+<price>Php 150.00</price>
+<screening>5/30/2013 2:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>14897</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) EPIC</movie_title>
+<rating>G</rating>
+<price>Php 150.00</price>
+<screening>5/30/2013 4:50:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>14898</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) EPIC</movie_title>
+<rating>G</rating>
+<price>Php 150.00</price>
+<screening>5/30/2013 6:55:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>14899</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) EPIC</movie_title>
+<rating>G</rating>
+<price>Php 150.00</price>
+<screening>5/30/2013 9:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>14915</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) EPIC</movie_title>
+<rating>G</rating>
+<price>Php 150.00</price>
+<screening>5/31/2013 12:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>14916</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) EPIC</movie_title>
+<rating>G</rating>
+<price>Php 150.00</price>
+<screening>5/31/2013 2:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>14917</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) EPIC</movie_title>
+<rating>G</rating>
+<price>Php 150.00</price>
+<screening>5/31/2013 4:50:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>14918</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) EPIC</movie_title>
+<rating>G</rating>
+<price>Php 150.00</price>
+<screening>5/31/2013 6:55:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>14919</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) EPIC</movie_title>
+<rating>G</rating>
+<price>Php 150.00</price>
+<screening>5/31/2013 9:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>14900</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>4</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 135.00</price>
+<screening>5/30/2013 1:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>14901</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>4</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 135.00</price>
+<screening>5/30/2013 3:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>14902</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>4</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 135.00</price>
+<screening>5/30/2013 5:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>14903</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>4</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 135.00</price>
+<screening>5/30/2013 7:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>14904</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>4</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 135.00</price>
+<screening>5/30/2013 9:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>14920</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>4</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 135.00</price>
+<screening>5/31/2013 1:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>14921</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>4</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 135.00</price>
+<screening>5/31/2013 3:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>14922</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>4</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 135.00</price>
+<screening>5/31/2013 5:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>14923</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>4</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 135.00</price>
+<screening>5/31/2013 7:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>14924</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>4</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 135.00</price>
+<screening>5/31/2013 9:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>3598</id>
+<theater>Alabang Town Center</theater>
+<theater_code>ATC</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 220.00</price>
+<screening>5/30/2013 1:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>3599</id>
+<theater>Alabang Town Center</theater>
+<theater_code>ATC</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 220.00</price>
+<screening>5/30/2013 4:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>3600</id>
+<theater>Alabang Town Center</theater>
+<theater_code>ATC</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 220.00</price>
+<screening>5/30/2013 7:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>3601</id>
+<theater>Alabang Town Center</theater>
+<theater_code>ATC</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 220.00</price>
+<screening>5/30/2013 10:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>189693</id>
+<theater>Alabang Town Center</theater>
+<theater_code>ATC</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 220.00</price>
+<screening>5/30/2013 1:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>189694</id>
+<theater>Alabang Town Center</theater>
+<theater_code>ATC</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 220.00</price>
+<screening>5/30/2013 3:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>189695</id>
+<theater>Alabang Town Center</theater>
+<theater_code>ATC</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 220.00</price>
+<screening>5/30/2013 6:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>189696</id>
+<theater>Alabang Town Center</theater>
+<theater_code>ATC</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 220.00</price>
+<screening>5/30/2013 8:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>189697</id>
+<theater>Alabang Town Center</theater>
+<theater_code>ATC</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 220.00</price>
+<screening>5/30/2013 10:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>189698</id>
+<theater>Alabang Town Center</theater>
+<theater_code>ATC</theater_code>
+<cinema>3</cinema>
+<movie_title>(3D) JURASSIC PARK</movie_title>
+<rating>PG</rating>
+<price>Php 250.00</price>
+<screening>5/30/2013 12:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>189699</id>
+<theater>Alabang Town Center</theater>
+<theater_code>ATC</theater_code>
+<cinema>3</cinema>
+<movie_title>(3D) JURASSIC PARK</movie_title>
+<rating>PG</rating>
+<price>Php 250.00</price>
+<screening>5/30/2013 3:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>189700</id>
+<theater>Alabang Town Center</theater>
+<theater_code>ATC</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 220.00</price>
+<screening>5/30/2013 6:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>189701</id>
+<theater>Alabang Town Center</theater>
+<theater_code>ATC</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 220.00</price>
+<screening>5/30/2013 9:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>189702</id>
+<theater>Alabang Town Center</theater>
+<theater_code>ATC</theater_code>
+<cinema>4</cinema>
+<movie_title>EPIC</movie_title>
+<rating>G</rating>
+<price>Php 200.00</price>
+<screening>5/30/2013 12:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>189703</id>
+<theater>Alabang Town Center</theater>
+<theater_code>ATC</theater_code>
+<cinema>4</cinema>
+<movie_title>EPIC</movie_title>
+<rating>G</rating>
+<price>Php 200.00</price>
+<screening>5/30/2013 3:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>189704</id>
+<theater>Alabang Town Center</theater>
+<theater_code>ATC</theater_code>
+<cinema>4</cinema>
+<movie_title>EPIC</movie_title>
+<rating>G</rating>
+<price>Php 200.00</price>
+<screening>5/30/2013 5:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>189705</id>
+<theater>Alabang Town Center</theater>
+<theater_code>ATC</theater_code>
+<cinema>4</cinema>
+<movie_title>EPIC</movie_title>
+<rating>G</rating>
+<price>Php 200.00</price>
+<screening>5/30/2013 7:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>189706</id>
+<theater>Alabang Town Center</theater>
+<theater_code>ATC</theater_code>
+<cinema>4</cinema>
+<movie_title>EPIC</movie_title>
+<rating>G</rating>
+<price>Php 200.00</price>
+<screening>5/30/2013 9:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>189707</id>
+<theater>Alabang Town Center</theater>
+<theater_code>ATC</theater_code>
+<cinema>5</cinema>
+<movie_title>NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 200.00</price>
+<screening>5/30/2013 12:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>189708</id>
+<theater>Alabang Town Center</theater>
+<theater_code>ATC</theater_code>
+<cinema>5</cinema>
+<movie_title>NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 200.00</price>
+<screening>5/30/2013 3:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>189709</id>
+<theater>Alabang Town Center</theater>
+<theater_code>ATC</theater_code>
+<cinema>5</cinema>
+<movie_title>NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 200.00</price>
+<screening>5/30/2013 5:35:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>189710</id>
+<theater>Alabang Town Center</theater>
+<theater_code>ATC</theater_code>
+<cinema>5</cinema>
+<movie_title>NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 200.00</price>
+<screening>5/30/2013 8:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>118300</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>1D</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 180.00</price>
+<screening>5/30/2013 1:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>118301</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>1D</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 180.00</price>
+<screening>5/30/2013 3:55:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>118302</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>1D</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 180.00</price>
+<screening>5/30/2013 6:35:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>118303</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>1D</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 180.00</price>
+<screening>5/30/2013 9:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>118304</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>1P</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 180.00</price>
+<screening>5/30/2013 1:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>118305</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>1P</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 180.00</price>
+<screening>5/30/2013 3:55:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>118306</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>1P</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 180.00</price>
+<screening>5/30/2013 6:35:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>118307</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>1P</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 180.00</price>
+<screening>5/30/2013 9:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>118338</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>1P</cinema>
+<movie_title>(2D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 180.00</price>
+<screening>6/12/2013 9:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>118339</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>1P</cinema>
+<movie_title>(2D) WORLD WAR Z</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 180.00</price>
+<screening>6/20/2013 9:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>118333</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>2D</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 160.00</price>
+<screening>5/30/2013 12:45:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>118334</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>2D</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 160.00</price>
+<screening>5/30/2013 2:35:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>118335</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>2D</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 160.00</price>
+<screening>5/30/2013 4:50:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>118336</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>2D</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 160.00</price>
+<screening>5/30/2013 7:05:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>118337</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>2D</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 160.00</price>
+<screening>5/30/2013 9:20:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>118308</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>2P</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 180.00</price>
+<screening>5/30/2013 12:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>118309</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>2P</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 180.00</price>
+<screening>5/30/2013 2:35:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>118310</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>2P</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 180.00</price>
+<screening>5/30/2013 4:50:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>118311</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>2P</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 180.00</price>
+<screening>5/30/2013 7:05:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>118312</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>2P</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 180.00</price>
+<screening>5/30/2013 9:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>118328</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>3D</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 160.00</price>
+<screening>5/30/2013 12:25:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>118329</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>3D</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 160.00</price>
+<screening>5/30/2013 2:20:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>118330</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>3D</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 160.00</price>
+<screening>5/30/2013 4:40:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>118331</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>3D</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 160.00</price>
+<screening>5/30/2013 7:00:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>118332</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>3D</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 160.00</price>
+<screening>5/30/2013 9:20:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>118313</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>3P</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 180.00</price>
+<screening>5/30/2013 12:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>118314</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>3P</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 180.00</price>
+<screening>5/30/2013 2:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>118315</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>3P</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 180.00</price>
+<screening>5/30/2013 4:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>118316</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>3P</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 180.00</price>
+<screening>5/30/2013 7:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>118317</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>3P</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 180.00</price>
+<screening>5/30/2013 9:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>118323</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>4D</cinema>
+<movie_title>EPIC</movie_title>
+<rating>G</rating>
+<price>Php 180.00</price>
+<screening>5/30/2013 1:05:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>118324</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>4D</cinema>
+<movie_title>EPIC</movie_title>
+<rating>G</rating>
+<price>Php 180.00</price>
+<screening>5/30/2013 2:50:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>118325</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>4D</cinema>
+<movie_title>EPIC</movie_title>
+<rating>G</rating>
+<price>Php 180.00</price>
+<screening>5/30/2013 5:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>118326</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>4D</cinema>
+<movie_title>EPIC</movie_title>
+<rating>G</rating>
+<price>Php 180.00</price>
+<screening>5/30/2013 7:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>118327</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>4D</cinema>
+<movie_title>EPIC</movie_title>
+<rating>G</rating>
+<price>Php 180.00</price>
+<screening>5/30/2013 9:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>118318</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>4P</cinema>
+<movie_title>EPIC</movie_title>
+<rating>G</rating>
+<price>Php 180.00</price>
+<screening>5/30/2013 1:05:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>118319</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>4P</cinema>
+<movie_title>EPIC</movie_title>
+<rating>G</rating>
+<price>Php 180.00</price>
+<screening>5/30/2013 2:50:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>118320</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>4P</cinema>
+<movie_title>EPIC</movie_title>
+<rating>G</rating>
+<price>Php 180.00</price>
+<screening>5/30/2013 5:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>118321</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>4P</cinema>
+<movie_title>EPIC</movie_title>
+<rating>G</rating>
+<price>Php 180.00</price>
+<screening>5/30/2013 7:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>118322</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>4P</cinema>
+<movie_title>EPIC</movie_title>
+<rating>G</rating>
+<price>Php 180.00</price>
+<screening>5/30/2013 9:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4024</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 130.00</price>
+<screening>5/30/2013 12:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4025</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 130.00</price>
+<screening>5/30/2013 2:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4026</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 130.00</price>
+<screening>5/30/2013 4:50:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4027</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 130.00</price>
+<screening>5/30/2013 7:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4028</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 130.00</price>
+<screening>5/30/2013 9:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4044</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 130.00</price>
+<screening>5/31/2013 12:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4045</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 130.00</price>
+<screening>5/31/2013 2:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4046</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 130.00</price>
+<screening>5/31/2013 4:50:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4047</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 130.00</price>
+<screening>5/31/2013 7:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4048</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 130.00</price>
+<screening>5/31/2013 9:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>3832</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 130.00</price>
+<screening>6/12/2013 9:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4000</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) WORLD WAR Z</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 130.00</price>
+<screening>6/20/2013 9:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4029</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 130.00</price>
+<screening>5/30/2013 11:00:00 AM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4030</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 130.00</price>
+<screening>5/30/2013 1:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4031</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 130.00</price>
+<screening>5/30/2013 4:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4032</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 130.00</price>
+<screening>5/30/2013 7:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4033</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 130.00</price>
+<screening>5/30/2013 9:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4049</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 130.00</price>
+<screening>5/31/2013 11:00:00 AM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4050</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 130.00</price>
+<screening>5/31/2013 1:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4051</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 130.00</price>
+<screening>5/31/2013 4:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4052</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 130.00</price>
+<screening>5/31/2013 7:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4053</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 130.00</price>
+<screening>5/31/2013 9:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4034</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>3</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 110.00</price>
+<screening>5/30/2013 1:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4035</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>3</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 110.00</price>
+<screening>5/30/2013 3:05:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4036</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>3</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 110.00</price>
+<screening>5/30/2013 5:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4037</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>3</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 110.00</price>
+<screening>5/30/2013 7:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4038</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>3</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 110.00</price>
+<screening>5/30/2013 9:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4054</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>3</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 110.00</price>
+<screening>5/31/2013 1:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4055</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>3</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 110.00</price>
+<screening>5/31/2013 3:05:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4056</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>3</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 110.00</price>
+<screening>5/31/2013 5:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4057</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>3</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 110.00</price>
+<screening>5/31/2013 7:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4058</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>3</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 110.00</price>
+<screening>5/31/2013 9:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4039</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>4</cinema>
+<movie_title>EPIC</movie_title>
+<rating>G</rating>
+<price>Php 110.00</price>
+<screening>5/30/2013 12:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4040</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>4</cinema>
+<movie_title>EPIC</movie_title>
+<rating>G</rating>
+<price>Php 110.00</price>
+<screening>5/30/2013 2:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4041</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>4</cinema>
+<movie_title>EPIC</movie_title>
+<rating>G</rating>
+<price>Php 110.00</price>
+<screening>5/30/2013 4:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4042</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>4</cinema>
+<movie_title>EPIC</movie_title>
+<rating>G</rating>
+<price>Php 110.00</price>
+<screening>5/30/2013 6:50:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4043</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>4</cinema>
+<movie_title>EPIC</movie_title>
+<rating>G</rating>
+<price>Php 110.00</price>
+<screening>5/30/2013 9:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4059</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>4</cinema>
+<movie_title>EPIC</movie_title>
+<rating>G</rating>
+<price>Php 110.00</price>
+<screening>5/31/2013 12:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4060</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>4</cinema>
+<movie_title>EPIC</movie_title>
+<rating>G</rating>
+<price>Php 110.00</price>
+<screening>5/31/2013 2:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4061</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>4</cinema>
+<movie_title>EPIC</movie_title>
+<rating>G</rating>
+<price>Php 110.00</price>
+<screening>5/31/2013 4:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4062</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>4</cinema>
+<movie_title>EPIC</movie_title>
+<rating>G</rating>
+<price>Php 110.00</price>
+<screening>5/31/2013 6:50:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4063</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>4</cinema>
+<movie_title>EPIC</movie_title>
+<rating>G</rating>
+<price>Php 110.00</price>
+<screening>5/31/2013 9:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113857</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>1</cinema>
+<movie_title>(3D) JURASSIC PARK</movie_title>
+<rating>PG</rating>
+<price>Php 250.00</price>
+<screening>5/30/2013 1:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113858</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>1</cinema>
+<movie_title>(3D) JURASSIC PARK</movie_title>
+<rating>PG</rating>
+<price>Php 250.00</price>
+<screening>5/30/2013 3:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113859</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>1</cinema>
+<movie_title>(3D) JURASSIC PARK</movie_title>
+<rating>PG</rating>
+<price>Php 250.00</price>
+<screening>5/30/2013 6:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113860</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>1</cinema>
+<movie_title>(3D) JURASSIC PARK</movie_title>
+<rating>PG</rating>
+<price>Php 250.00</price>
+<screening>5/30/2013 8:55:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113861</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 200.00</price>
+<screening>5/30/2013 12:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113862</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 200.00</price>
+<screening>5/30/2013 2:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113863</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 200.00</price>
+<screening>5/30/2013 4:50:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113864</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 200.00</price>
+<screening>5/30/2013 7:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113865</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 200.00</price>
+<screening>5/30/2013 9:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113505</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 210.00</price>
+<screening>6/12/2013 8:55:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113866</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 220.00</price>
+<screening>5/30/2013 12:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113867</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 220.00</price>
+<screening>5/30/2013 2:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113868</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 220.00</price>
+<screening>5/30/2013 4:50:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113869</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 220.00</price>
+<screening>5/30/2013 7:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113870</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 220.00</price>
+<screening>5/30/2013 9:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113871</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>4</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 200.00</price>
+<screening>5/30/2013 1:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113872</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>4</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 200.00</price>
+<screening>5/30/2013 3:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113873</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>4</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 200.00</price>
+<screening>5/30/2013 5:35:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113874</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>4</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 200.00</price>
+<screening>5/30/2013 7:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113875</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>4</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 200.00</price>
+<screening>5/30/2013 9:55:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113876</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>5</cinema>
+<movie_title>(2D) EPIC</movie_title>
+<rating>G</rating>
+<price>Php 200.00</price>
+<screening>5/30/2013 12:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113877</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>5</cinema>
+<movie_title>(2D) EPIC</movie_title>
+<rating>G</rating>
+<price>Php 200.00</price>
+<screening>5/30/2013 2:55:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113878</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>5</cinema>
+<movie_title>(2D) EPIC</movie_title>
+<rating>G</rating>
+<price>Php 200.00</price>
+<screening>5/30/2013 5:05:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113879</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>5</cinema>
+<movie_title>(2D) EPIC</movie_title>
+<rating>G</rating>
+<price>Php 200.00</price>
+<screening>5/30/2013 7:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113880</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>5</cinema>
+<movie_title>(2D) EPIC</movie_title>
+<rating>G</rating>
+<price>Php 200.00</price>
+<screening>5/30/2013 9:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113881</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>6</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 210.00</price>
+<screening>5/30/2013 12:55:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113882</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>6</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 210.00</price>
+<screening>5/30/2013 3:35:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113883</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>6</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 210.00</price>
+<screening>5/30/2013 6:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113884</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>6</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 210.00</price>
+<screening>5/30/2013 8:55:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113506</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>6</cinema>
+<movie_title>(2D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 210.00</price>
+<screening>6/13/2013 7:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113507</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>6</cinema>
+<movie_title>(2D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 210.00</price>
+<screening>6/14/2013 7:55:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113508</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>6</cinema>
+<movie_title>(2D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 210.00</price>
+<screening>6/15/2013 7:55:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113509</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>6</cinema>
+<movie_title>(2D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 210.00</price>
+<screening>6/16/2013 6:55:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113885</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>7</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 210.00</price>
+<screening>5/30/2013 1:55:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113886</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>7</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 210.00</price>
+<screening>5/30/2013 4:35:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113887</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>7</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 210.00</price>
+<screening>5/30/2013 7:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113888</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>7</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 210.00</price>
+<screening>5/30/2013 9:55:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>162415</id>
+<theater>Greenbelt 1</theater>
+<theater_code>GB1</theater_code>
+<cinema>1</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 130.00</price>
+<screening>5/30/2013 12:15:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>162416</id>
+<theater>Greenbelt 1</theater>
+<theater_code>GB1</theater_code>
+<cinema>1</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 130.00</price>
+<screening>5/30/2013 2:25:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>162417</id>
+<theater>Greenbelt 1</theater>
+<theater_code>GB1</theater_code>
+<cinema>1</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 130.00</price>
+<screening>5/30/2013 4:35:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>162418</id>
+<theater>Greenbelt 1</theater>
+<theater_code>GB1</theater_code>
+<cinema>1</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 130.00</price>
+<screening>5/30/2013 6:45:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>162419</id>
+<theater>Greenbelt 1</theater>
+<theater_code>GB1</theater_code>
+<cinema>1</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 130.00</price>
+<screening>5/30/2013 8:55:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>162420</id>
+<theater>Greenbelt 1</theater>
+<theater_code>GB1</theater_code>
+<cinema>2</cinema>
+<movie_title>FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 130.00</price>
+<screening>5/30/2013 12:30:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>162421</id>
+<theater>Greenbelt 1</theater>
+<theater_code>GB1</theater_code>
+<cinema>2</cinema>
+<movie_title>FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 130.00</price>
+<screening>5/30/2013 3:05:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>162422</id>
+<theater>Greenbelt 1</theater>
+<theater_code>GB1</theater_code>
+<cinema>2</cinema>
+<movie_title>FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 130.00</price>
+<screening>5/30/2013 5:40:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>162423</id>
+<theater>Greenbelt 1</theater>
+<theater_code>GB1</theater_code>
+<cinema>2</cinema>
+<movie_title>FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 130.00</price>
+<screening>5/30/2013 8:15:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>203048</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 230.00</price>
+<screening>5/30/2013 2:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>203049</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 230.00</price>
+<screening>5/30/2013 4:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>203050</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 230.00</price>
+<screening>5/30/2013 6:50:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>203051</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 230.00</price>
+<screening>5/30/2013 9:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>203052</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 230.00</price>
+<screening>5/30/2013 11:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>203064</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 230.00</price>
+<screening>5/31/2013 1:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>203065</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 230.00</price>
+<screening>5/31/2013 3:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>203066</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 230.00</price>
+<screening>5/31/2013 5:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>203067</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 230.00</price>
+<screening>5/31/2013 7:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>203068</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 230.00</price>
+<screening>5/31/2013 9:50:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>203069</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 230.00</price>
+<screening>5/31/2013 11:59:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>202747</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 230.00</price>
+<screening>6/12/2013 9:05:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>202752</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 230.00</price>
+<screening>6/17/2013 8:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>203002</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) WORLD WAR Z</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 230.00</price>
+<screening>6/20/2013 8:50:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>203003</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) WORLD WAR Z</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 230.00</price>
+<screening>6/21/2013 8:50:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>203004</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) WORLD WAR Z</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 230.00</price>
+<screening>6/22/2013 8:50:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>203005</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) WORLD WAR Z</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 230.00</price>
+<screening>6/23/2013 9:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>203053</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 230.00</price>
+<screening>5/30/2013 3:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>203054</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 230.00</price>
+<screening>5/30/2013 5:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>203055</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 230.00</price>
+<screening>5/30/2013 8:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>203056</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 230.00</price>
+<screening>5/30/2013 11:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>203061</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 230.00</price>
+<screening>5/31/2013 12:50:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>203062</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 230.00</price>
+<screening>5/31/2013 3:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>203063</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 230.00</price>
+<screening>5/31/2013 11:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>203070</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 210.00</price>
+<screening>5/30/2013 1:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>203071</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 210.00</price>
+<screening>5/30/2013 3:55:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>203072</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 210.00</price>
+<screening>5/30/2013 6:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>203073</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 210.00</price>
+<screening>5/30/2013 8:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>203074</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 210.00</price>
+<screening>5/30/2013 11:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>203057</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>4</cinema>
+<movie_title>(3D) JURASSIC PARK</movie_title>
+<rating>PG</rating>
+<price>Php 250.00</price>
+<screening>5/30/2013 1:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>203058</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>4</cinema>
+<movie_title>(3D) JURASSIC PARK</movie_title>
+<rating>PG</rating>
+<price>Php 250.00</price>
+<screening>5/30/2013 4:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>203059</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>4</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 220.00</price>
+<screening>5/30/2013 6:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>203060</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>4</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 220.00</price>
+<screening>5/30/2013 9:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>202748</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>4</cinema>
+<movie_title>(3D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 300.00</price>
+<screening>6/13/2013 8:35:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>202749</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>4</cinema>
+<movie_title>(3D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 300.00</price>
+<screening>6/14/2013 8:35:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>202750</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>4</cinema>
+<movie_title>(3D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 300.00</price>
+<screening>6/15/2013 8:35:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>202751</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>4</cinema>
+<movie_title>(3D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 300.00</price>
+<screening>6/16/2013 8:35:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>203075</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>5</cinema>
+<movie_title>(2D) EPIC</movie_title>
+<rating>G</rating>
+<price>Php 220.00</price>
+<screening>5/30/2013 2:05:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>203076</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>5</cinema>
+<movie_title>(2D) EPIC</movie_title>
+<rating>G</rating>
+<price>Php 220.00</price>
+<screening>5/30/2013 4:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>203077</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>5</cinema>
+<movie_title>(2D) EPIC</movie_title>
+<rating>G</rating>
+<price>Php 220.00</price>
+<screening>5/30/2013 6:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>203078</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>5</cinema>
+<movie_title>(2D) EPIC</movie_title>
+<rating>G</rating>
+<price>Php 220.00</price>
+<screening>5/30/2013 8:35:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>203079</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>5</cinema>
+<movie_title>(2D) EPIC</movie_title>
+<rating>G</rating>
+<price>Php 220.00</price>
+<screening>5/30/2013 10:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>6345</id>
+<theater>Harbor Point</theater>
+<theater_code>HPC</theater_code>
+<cinema>1</cinema>
+<movie_title>EPIC</movie_title>
+<rating>G</rating>
+<price>Php 140.00</price>
+<screening>5/30/2013 2:05:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>6346</id>
+<theater>Harbor Point</theater>
+<theater_code>HPC</theater_code>
+<cinema>1</cinema>
+<movie_title>EPIC</movie_title>
+<rating>G</rating>
+<price>Php 140.00</price>
+<screening>5/30/2013 4:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>6347</id>
+<theater>Harbor Point</theater>
+<theater_code>HPC</theater_code>
+<cinema>1</cinema>
+<movie_title>EPIC</movie_title>
+<rating>G</rating>
+<price>Php 140.00</price>
+<screening>5/30/2013 6:35:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>6348</id>
+<theater>Harbor Point</theater>
+<theater_code>HPC</theater_code>
+<cinema>1</cinema>
+<movie_title>EPIC</movie_title>
+<rating>G</rating>
+<price>Php 140.00</price>
+<screening>5/30/2013 8:50:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>6349</id>
+<theater>Harbor Point</theater>
+<theater_code>HPC</theater_code>
+<cinema>2</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 140.00</price>
+<screening>5/30/2013 1:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>6350</id>
+<theater>Harbor Point</theater>
+<theater_code>HPC</theater_code>
+<cinema>2</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 140.00</price>
+<screening>5/30/2013 3:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>6351</id>
+<theater>Harbor Point</theater>
+<theater_code>HPC</theater_code>
+<cinema>2</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 140.00</price>
+<screening>5/30/2013 5:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>6352</id>
+<theater>Harbor Point</theater>
+<theater_code>HPC</theater_code>
+<cinema>2</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 140.00</price>
+<screening>5/30/2013 7:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>6353</id>
+<theater>Harbor Point</theater>
+<theater_code>HPC</theater_code>
+<cinema>2</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 140.00</price>
+<screening>5/30/2013 9:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>6354</id>
+<theater>Harbor Point</theater>
+<theater_code>HPC</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 150.00</price>
+<screening>5/30/2013 1:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>6355</id>
+<theater>Harbor Point</theater>
+<theater_code>HPC</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 150.00</price>
+<screening>5/30/2013 3:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>6356</id>
+<theater>Harbor Point</theater>
+<theater_code>HPC</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 150.00</price>
+<screening>5/30/2013 6:05:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>6357</id>
+<theater>Harbor Point</theater>
+<theater_code>HPC</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 150.00</price>
+<screening>5/30/2013 8:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>6358</id>
+<theater>Harbor Point</theater>
+<theater_code>HPC</theater_code>
+<cinema>4</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 150.00</price>
+<screening>5/30/2013 1:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>6359</id>
+<theater>Harbor Point</theater>
+<theater_code>HPC</theater_code>
+<cinema>4</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 150.00</price>
+<screening>5/30/2013 3:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>6360</id>
+<theater>Harbor Point</theater>
+<theater_code>HPC</theater_code>
+<cinema>4</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 150.00</price>
+<screening>5/30/2013 6:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>6361</id>
+<theater>Harbor Point</theater>
+<theater_code>HPC</theater_code>
+<cinema>4</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 150.00</price>
+<screening>5/30/2013 9:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>34688</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 200.00</price>
+<screening>5/30/2013 1:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>34689</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 200.00</price>
+<screening>5/30/2013 3:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>34690</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 200.00</price>
+<screening>5/30/2013 6:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>34691</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 200.00</price>
+<screening>5/30/2013 9:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>34692</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 190.00</price>
+<screening>5/30/2013 1:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>34693</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 190.00</price>
+<screening>5/30/2013 4:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>34694</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 190.00</price>
+<screening>5/30/2013 6:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>34695</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 190.00</price>
+<screening>5/30/2013 9:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>34696</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) EPIC</movie_title>
+<rating>G</rating>
+<price>Php 190.00</price>
+<screening>5/30/2013 12:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>34697</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) EPIC</movie_title>
+<rating>G</rating>
+<price>Php 190.00</price>
+<screening>5/30/2013 2:50:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>34698</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) EPIC</movie_title>
+<rating>G</rating>
+<price>Php 190.00</price>
+<screening>5/30/2013 5:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>34699</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) EPIC</movie_title>
+<rating>G</rating>
+<price>Php 190.00</price>
+<screening>5/30/2013 7:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>34700</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) EPIC</movie_title>
+<rating>G</rating>
+<price>Php 190.00</price>
+<screening>5/30/2013 9:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>34701</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>4</cinema>
+<movie_title>(3D) JURASSIC PARK</movie_title>
+<rating>PG</rating>
+<price>Php 250.00</price>
+<screening>5/30/2013 1:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>34702</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>4</cinema>
+<movie_title>(3D) JURASSIC PARK</movie_title>
+<rating>PG</rating>
+<price>Php 250.00</price>
+<screening>5/30/2013 3:50:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>34703</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>4</cinema>
+<movie_title>(3D) JURASSIC PARK</movie_title>
+<rating>PG</rating>
+<price>Php 250.00</price>
+<screening>5/30/2013 6:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>34704</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>4</cinema>
+<movie_title>(3D) JURASSIC PARK</movie_title>
+<rating>PG</rating>
+<price>Php 250.00</price>
+<screening>5/30/2013 9:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>34705</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>5</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 200.00</price>
+<screening>5/30/2013 1:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>34706</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>5</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 200.00</price>
+<screening>5/30/2013 4:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>34707</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>5</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 200.00</price>
+<screening>5/30/2013 6:50:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>34708</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>5</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 200.00</price>
+<screening>5/30/2013 9:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>34488</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>5</cinema>
+<movie_title>(2D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 200.00</price>
+<screening>6/12/2013 9:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>34489</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>5</cinema>
+<movie_title>(2D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 200.00</price>
+<screening>6/13/2013 9:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>34490</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>5</cinema>
+<movie_title>(2D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 200.00</price>
+<screening>6/14/2013 9:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>34709</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>6</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 180.00</price>
+<screening>5/30/2013 12:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>34710</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>6</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 180.00</price>
+<screening>5/30/2013 2:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>34711</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>6</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 180.00</price>
+<screening>5/30/2013 4:50:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>34712</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>6</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 180.00</price>
+<screening>5/30/2013 7:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>34713</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>6</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 180.00</price>
+<screening>5/30/2013 9:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>34714</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>7</cinema>
+<movie_title>BROMANCE: MY BROTHER'S ROMANCE</movie_title>
+<rating>PG</rating>
+<price>Php 180.00</price>
+<screening>5/30/2013 12:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>34715</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>7</cinema>
+<movie_title>BROMANCE: MY BROTHER'S ROMANCE</movie_title>
+<rating>PG</rating>
+<price>Php 180.00</price>
+<screening>5/30/2013 2:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>34716</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>7</cinema>
+<movie_title>BROMANCE: MY BROTHER'S ROMANCE</movie_title>
+<rating>PG</rating>
+<price>Php 180.00</price>
+<screening>5/30/2013 4:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>34717</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>7</cinema>
+<movie_title>BROMANCE: MY BROTHER'S ROMANCE</movie_title>
+<rating>PG</rating>
+<price>Php 180.00</price>
+<screening>5/30/2013 7:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>34718</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>7</cinema>
+<movie_title>BROMANCE: MY BROTHER'S ROMANCE</movie_title>
+<rating>PG</rating>
+<price>Php 180.00</price>
+<screening>5/30/2013 9:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>25511</id>
+<theater>MarQuee</theater>
+<theater_code>MRQ</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 180.00</price>
+<screening>5/30/2013 1:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>25512</id>
+<theater>MarQuee</theater>
+<theater_code>MRQ</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 180.00</price>
+<screening>5/30/2013 4:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>25513</id>
+<theater>MarQuee</theater>
+<theater_code>MRQ</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 180.00</price>
+<screening>5/30/2013 6:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>25514</id>
+<theater>MarQuee</theater>
+<theater_code>MRQ</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 180.00</price>
+<screening>5/30/2013 9:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>25515</id>
+<theater>MarQuee</theater>
+<theater_code>MRQ</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 160.00</price>
+<screening>5/30/2013 12:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>25516</id>
+<theater>MarQuee</theater>
+<theater_code>MRQ</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 160.00</price>
+<screening>5/30/2013 2:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>25517</id>
+<theater>MarQuee</theater>
+<theater_code>MRQ</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 160.00</price>
+<screening>5/30/2013 4:50:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>25518</id>
+<theater>MarQuee</theater>
+<theater_code>MRQ</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 160.00</price>
+<screening>5/30/2013 7:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>25519</id>
+<theater>MarQuee</theater>
+<theater_code>MRQ</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 160.00</price>
+<screening>5/30/2013 9:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>25520</id>
+<theater>MarQuee</theater>
+<theater_code>MRQ</theater_code>
+<cinema>3</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 140.00</price>
+<screening>5/30/2013 12:50:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>25521</id>
+<theater>MarQuee</theater>
+<theater_code>MRQ</theater_code>
+<cinema>3</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 140.00</price>
+<screening>5/30/2013 3:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>25522</id>
+<theater>MarQuee</theater>
+<theater_code>MRQ</theater_code>
+<cinema>3</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 140.00</price>
+<screening>5/30/2013 5:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>25523</id>
+<theater>MarQuee</theater>
+<theater_code>MRQ</theater_code>
+<cinema>3</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 140.00</price>
+<screening>5/30/2013 7:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>25524</id>
+<theater>MarQuee</theater>
+<theater_code>MRQ</theater_code>
+<cinema>3</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 140.00</price>
+<screening>5/30/2013 9:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>25525</id>
+<theater>MarQuee</theater>
+<theater_code>MRQ</theater_code>
+<cinema>4</cinema>
+<movie_title>EPIC</movie_title>
+<rating>G</rating>
+<price>Php 140.00</price>
+<screening>5/30/2013 12:35:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>25526</id>
+<theater>MarQuee</theater>
+<theater_code>MRQ</theater_code>
+<cinema>4</cinema>
+<movie_title>EPIC</movie_title>
+<rating>G</rating>
+<price>Php 140.00</price>
+<screening>5/30/2013 2:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>25527</id>
+<theater>MarQuee</theater>
+<theater_code>MRQ</theater_code>
+<cinema>4</cinema>
+<movie_title>EPIC</movie_title>
+<rating>G</rating>
+<price>Php 140.00</price>
+<screening>5/30/2013 4:55:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>25528</id>
+<theater>MarQuee</theater>
+<theater_code>MRQ</theater_code>
+<cinema>4</cinema>
+<movie_title>EPIC</movie_title>
+<rating>G</rating>
+<price>Php 140.00</price>
+<screening>5/30/2013 7:05:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>25529</id>
+<theater>MarQuee</theater>
+<theater_code>MRQ</theater_code>
+<cinema>4</cinema>
+<movie_title>EPIC</movie_title>
+<rating>G</rating>
+<price>Php 140.00</price>
+<screening>5/30/2013 9:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109920</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 210.00</price>
+<screening>5/30/2013 11:45:00 AM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109921</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 210.00</price>
+<screening>5/30/2013 2:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109922</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 210.00</price>
+<screening>5/30/2013 5:05:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109923</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 210.00</price>
+<screening>5/30/2013 7:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109924</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 210.00</price>
+<screening>5/30/2013 10:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109367</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 210.00</price>
+<screening>6/12/2013 10:30:00 AM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109925</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>2</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 200.00</price>
+<screening>5/30/2013 12:05:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109926</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>2</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 200.00</price>
+<screening>5/30/2013 2:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109927</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>2</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 200.00</price>
+<screening>5/30/2013 4:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109928</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>2</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 200.00</price>
+<screening>5/30/2013 7:05:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109929</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>2</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 200.00</price>
+<screening>5/30/2013 9:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109930</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 190.00</price>
+<screening>5/30/2013 12:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109931</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 190.00</price>
+<screening>5/30/2013 2:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109932</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 190.00</price>
+<screening>5/30/2013 5:05:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109933</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 190.00</price>
+<screening>5/30/2013 7:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109934</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 190.00</price>
+<screening>5/30/2013 9:55:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109327</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3</cinema>
+<movie_title>(3D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 300.00</price>
+<screening>6/12/2013 12:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109328</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3</cinema>
+<movie_title>(3D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 300.00</price>
+<screening>6/12/2013 3:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109329</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3</cinema>
+<movie_title>(3D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 300.00</price>
+<screening>6/12/2013 6:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109330</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3</cinema>
+<movie_title>(3D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 300.00</price>
+<screening>6/12/2013 9:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109335</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3</cinema>
+<movie_title>(3D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 300.00</price>
+<screening>6/13/2013 12:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109336</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3</cinema>
+<movie_title>(3D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 300.00</price>
+<screening>6/13/2013 3:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109337</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3</cinema>
+<movie_title>(3D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 300.00</price>
+<screening>6/13/2013 6:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109338</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3</cinema>
+<movie_title>(3D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 300.00</price>
+<screening>6/13/2013 9:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109343</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3</cinema>
+<movie_title>(3D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 300.00</price>
+<screening>6/14/2013 12:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109344</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3</cinema>
+<movie_title>(3D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 300.00</price>
+<screening>6/14/2013 3:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109345</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3</cinema>
+<movie_title>(3D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 300.00</price>
+<screening>6/14/2013 6:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109346</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3</cinema>
+<movie_title>(3D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 300.00</price>
+<screening>6/14/2013 9:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109351</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3</cinema>
+<movie_title>(3D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 300.00</price>
+<screening>6/15/2013 12:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109352</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3</cinema>
+<movie_title>(3D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 300.00</price>
+<screening>6/15/2013 3:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109353</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3</cinema>
+<movie_title>(3D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 300.00</price>
+<screening>6/15/2013 6:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109354</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3</cinema>
+<movie_title>(3D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 300.00</price>
+<screening>6/15/2013 9:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109359</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3</cinema>
+<movie_title>(3D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 300.00</price>
+<screening>6/16/2013 12:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109360</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3</cinema>
+<movie_title>(3D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 300.00</price>
+<screening>6/16/2013 3:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109361</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3</cinema>
+<movie_title>(3D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 300.00</price>
+<screening>6/16/2013 6:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109362</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3</cinema>
+<movie_title>(3D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 300.00</price>
+<screening>6/16/2013 9:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109935</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3Z</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 290.00</price>
+<screening>5/30/2013 12:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109936</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3Z</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 290.00</price>
+<screening>5/30/2013 2:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109937</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3Z</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 290.00</price>
+<screening>5/30/2013 5:05:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109938</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3Z</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 290.00</price>
+<screening>5/30/2013 7:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109939</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3Z</cinema>
+<movie_title>(2D) NOW YOU SEE ME</movie_title>
+<rating>PG</rating>
+<price>Php 290.00</price>
+<screening>5/30/2013 9:55:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109331</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3Z</cinema>
+<movie_title>(3D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 400.00</price>
+<screening>6/12/2013 12:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109332</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3Z</cinema>
+<movie_title>(3D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 400.00</price>
+<screening>6/12/2013 3:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109333</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3Z</cinema>
+<movie_title>(3D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 400.00</price>
+<screening>6/12/2013 6:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109334</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3Z</cinema>
+<movie_title>(3D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 400.00</price>
+<screening>6/12/2013 9:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109339</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3Z</cinema>
+<movie_title>(3D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 400.00</price>
+<screening>6/13/2013 12:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109340</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3Z</cinema>
+<movie_title>(3D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 400.00</price>
+<screening>6/13/2013 3:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109341</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3Z</cinema>
+<movie_title>(3D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 400.00</price>
+<screening>6/13/2013 6:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109342</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3Z</cinema>
+<movie_title>(3D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 400.00</price>
+<screening>6/13/2013 9:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109347</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3Z</cinema>
+<movie_title>(3D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 400.00</price>
+<screening>6/14/2013 12:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109348</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3Z</cinema>
+<movie_title>(3D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 400.00</price>
+<screening>6/14/2013 3:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109349</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3Z</cinema>
+<movie_title>(3D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 400.00</price>
+<screening>6/14/2013 6:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109350</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3Z</cinema>
+<movie_title>(3D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 400.00</price>
+<screening>6/14/2013 9:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109355</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3Z</cinema>
+<movie_title>(3D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 400.00</price>
+<screening>6/15/2013 12:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109356</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3Z</cinema>
+<movie_title>(3D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 400.00</price>
+<screening>6/15/2013 3:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109357</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3Z</cinema>
+<movie_title>(3D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 400.00</price>
+<screening>6/15/2013 6:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109358</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3Z</cinema>
+<movie_title>(3D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 400.00</price>
+<screening>6/15/2013 9:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109363</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3Z</cinema>
+<movie_title>(3D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 400.00</price>
+<screening>6/16/2013 12:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109364</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3Z</cinema>
+<movie_title>(3D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 400.00</price>
+<screening>6/16/2013 3:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109365</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3Z</cinema>
+<movie_title>(3D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 400.00</price>
+<screening>6/16/2013 6:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109366</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3Z</cinema>
+<movie_title>(3D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 400.00</price>
+<screening>6/16/2013 9:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109940</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>4</cinema>
+<movie_title>(3D) JURASSIC PARK</movie_title>
+<rating>PG</rating>
+<price>Php 250.00</price>
+<screening>5/30/2013 1:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109941</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>4</cinema>
+<movie_title>(3D) JURASSIC PARK</movie_title>
+<rating>PG</rating>
+<price>Php 250.00</price>
+<screening>5/30/2013 3:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109942</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>4</cinema>
+<movie_title>(3D) JURASSIC PARK</movie_title>
+<rating>PG</rating>
+<price>Php 250.00</price>
+<screening>5/30/2013 6:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109943</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>4</cinema>
+<movie_title>(3D) JURASSIC PARK</movie_title>
+<rating>PG</rating>
+<price>Php 250.00</price>
+<screening>5/30/2013 8:55:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109944</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>4Z</cinema>
+<movie_title>(3D) JURASSIC PARK</movie_title>
+<rating>PG</rating>
+<price>Php 350.00</price>
+<screening>5/30/2013 1:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109945</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>4Z</cinema>
+<movie_title>(3D) JURASSIC PARK</movie_title>
+<rating>PG</rating>
+<price>Php 350.00</price>
+<screening>5/30/2013 3:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109946</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>4Z</cinema>
+<movie_title>(3D) JURASSIC PARK</movie_title>
+<rating>PG</rating>
+<price>Php 350.00</price>
+<screening>5/30/2013 6:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109947</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>4Z</cinema>
+<movie_title>(3D) JURASSIC PARK</movie_title>
+<rating>PG</rating>
+<price>Php 350.00</price>
+<screening>5/30/2013 8:55:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109948</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>5</cinema>
+<movie_title>(2D) EPIC</movie_title>
+<rating>G</rating>
+<price>Php 200.00</price>
+<screening>5/30/2013 1:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109949</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>5</cinema>
+<movie_title>(2D) EPIC</movie_title>
+<rating>G</rating>
+<price>Php 200.00</price>
+<screening>5/30/2013 3:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109950</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>5</cinema>
+<movie_title>(2D) EPIC</movie_title>
+<rating>G</rating>
+<price>Php 200.00</price>
+<screening>5/30/2013 5:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109951</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>5</cinema>
+<movie_title>(2D) EPIC</movie_title>
+<rating>G</rating>
+<price>Php 200.00</price>
+<screening>5/30/2013 7:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109952</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>5</cinema>
+<movie_title>(2D) EPIC</movie_title>
+<rating>G</rating>
+<price>Php 200.00</price>
+<screening>5/30/2013 9:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109369</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>5</cinema>
+<movie_title>(2D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 210.00</price>
+<screening>6/13/2013 11:00:00 AM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109370</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>5</cinema>
+<movie_title>(2D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 210.00</price>
+<screening>6/13/2013 8:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109953</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>6</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 200.00</price>
+<screening>5/30/2013 11:00:00 AM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109954</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>6</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 200.00</price>
+<screening>5/30/2013 1:05:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109955</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>6</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 200.00</price>
+<screening>5/30/2013 3:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109956</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>6</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 200.00</price>
+<screening>5/30/2013 5:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109957</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>6</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 200.00</price>
+<screening>5/30/2013 8:05:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109958</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>6</cinema>
+<movie_title>HANG-OVER 3</movie_title>
+<rating>R-13</rating>
+<price>Php 200.00</price>
+<screening>5/30/2013 10:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109959</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>7</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 220.00</price>
+<screening>5/30/2013 11:20:00 AM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109960</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>7</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 220.00</price>
+<screening>5/30/2013 1:55:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109961</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>7</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 220.00</price>
+<screening>5/30/2013 4:35:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109962</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>7</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 220.00</price>
+<screening>5/30/2013 7:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109963</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>7</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 220.00</price>
+<screening>5/30/2013 9:55:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109368</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>7</cinema>
+<movie_title>(2D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 220.00</price>
+<screening>6/12/2013 12:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109371</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>7</cinema>
+<movie_title>(2D) MAN OF STEEL</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 220.00</price>
+<screening>6/13/2013 6:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109964</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>7Z</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 320.00</price>
+<screening>5/30/2013 11:20:00 AM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109965</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>7Z</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 320.00</price>
+<screening>5/30/2013 1:55:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109966</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>7Z</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 320.00</price>
+<screening>5/30/2013 4:35:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109967</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>7Z</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 320.00</price>
+<screening>5/30/2013 7:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109968</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>7Z</cinema>
+<movie_title>(2D) FAST &amp; FURIOUS 6</movie_title>
+<rating>PG</rating>
+<price>Php 320.00</price>
+<screening>5/30/2013 9:55:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+</Movie>
