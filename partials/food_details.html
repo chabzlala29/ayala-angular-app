@@ -1,88 +1,23 @@
-<!DOCTYPE html>
-<html>
-<head>
-  	<meta charset="utf-8" />
-  	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-  	<title>Ayala Malls 360</title>
-  	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-  	<link rel="stylesheet" type="text/css" href="css/misc.css">
-  	<script type="text/javascript" src="js/scrollfix.js"></script>
-  	<script type="text/javascript" src="js/main.js"></script>
-  	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/javascript" charset="utf-8">
-		var scrollable = document.getElementById("scrollable");
-		new ScrollFix(scrollable);
-
-		var store_location_id;
-
-		$(document).ready(function() {
-			// $.get("../api/v1/malls/"+sessionStorage.mall_id+"/stores",function(data){ // kopi's local
-			$.get("/ayalamalls/api/v1/"+sessionStorage.mall_id+"/stores.json",function(data){
-				$.each(data, function(i, store_info) {
-					if (store_info.store_id == sessionStorage.food_id) {
-						store_location_id = store_info.store_id;
-						$('#fast-food-name').html(store_info.store_name);
-						$('#fast-food-pic').append('<img src="' + store_info.photo_url + '" width="100%" height="145px">');
-						$('#scrollable').append('<p class="store-contact">Located on '+store_info.location+'. '+store_info.contact+'</p>');
-						$('#scrollable').append('<p class="store-details">'+store_info.description+'</p>');
-
-						$.get('../api/v1/favorites?token='+sessionStorage.token,function(data){
-							$.each(data, function(i, favorites) {
-								if(store_info.store_id == favorites.store_location_id) {
-									$('#btn-add-favorite').addClass("active");
-								}
-							});
-						});
-
-						$('food_favorites').append('<input type="hidden" id="user_id" name="user_id" value="'+sessionStorage.user_id+'">');
-						$('food_favorites').append('<input type="hidden" id="store_id" name="store_id" value="'+store_info.store_id+'">');
-						$('food_favorites').append('<input type="hidden" id="store_name" name="store_name" value="'+store_info.store_name+'">');
-					}
-				});
-			});
-		 });
-
-		$(document).ready(function () {
-			$('#btn-add-favorite').click(function() {
-				$('#food_favorites').submit();
-				$(this).addClass("active");
-			});
-		});
-
-		function addToFavorites() {
-			$.ajax({
-				type:'POST',
-				url: '../api/v1/favorites?token='+sessionStorage.token+'&store_location_id='+store_location_id, //kopi's local
-				//url: '../ayalamalls/api/v1/favorites', //my local
-				data:$('#food_favorites').serialize(),
-				success: function(response) {
-		        	//if(response=="true"){
-		        		alert('You saved this store to favorites.');
-		        	//}
-		        }
-		    });
-
-		    return false;
-		}
-	</script>
-</head>
-
-<body>
-	<div class="wrapper">
+<div class="wrapper">
 		<div class="header-logo">
-			<div class="button bordered back" onclick="goBackToSpecificPage(5);">
+			<div class="button bordered back" onclick="goBack('#/{{mall_name}}/{{mall_id}}/food')">
                 <span class="pointer"></span>
                 <div class="content">
                     <span class="label">Back</span>
                 </div>
             </div>
-            <h2 id="fast-food-name"></h2>
+			<h2 id="store-name">{{name}}</h2>
 		</div>
 	</div>
 	<div class="main-content">
-		<div class="black-container">
-			<div id="fast-food-pic"></div>
-			<div class="food-details-scrollable" id="scrollable"></div>
+		<div class="black-container" id="black-container"> 
+			<div id="store-pic">
+				<img class="store-pic" src="http://ayala360.net" width="304px" height="235px">
+			</div>
+			<div class="store-details-scrollable" id="scrollable">
+				<p class="store-contact">{{location}}</p>
+				<p class="store-details"></p>
+			</div>
 			<div class="btn-wrapper">
 				<div class="btn-stores">
 					<a href="promos.html" class="btn-controls deals"></a>
@@ -90,7 +25,7 @@
 					<a href="#" class="btn-controls show-map"></a>
 				</div>
 			</div>
-		</div> 
+		</div>
 	</div>
 	<div class="bottom-nav">
 		<ul class="main-nav">
@@ -111,10 +46,8 @@
 			</li>
 		</ul>
 	</div>
-	<form id="food_favorites" name="food_favorites" method="post" onsubmit="return addToFavorites();">
+	<form id="store_favorites" name="food_favorites" method="post" onsubmit="return addToFavorites();">
 		<input type="hidden" id="user_id" name="user_id">
 		<input type="hidden" id="user_id" name="store_id">
 		<input type="hidden" id="user_id" name="store_name">
 	</form>
-</body>
-</html>

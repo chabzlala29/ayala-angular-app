@@ -1,6 +1,6 @@
 <div class="wrapper">
 	<div class="header-logo">
-		<div class="button bordered back" onclick="goBackToMallFeatures();">
+		<div class="button bordered back" onclick="goBack('#/{{mall_name}}/{{mall_id}}');">
             <span class="pointer"></span>
             <div class="content">
                 <span class="label" id="mall-name">{{mall_name}}</span>
@@ -19,7 +19,7 @@
 	<div class="food-container">
 		<div class="food-scrollable" id="scrollable">
 			<ul class="nav nav-tabs nav-stacked list-name" id="foods">
-				<li ng-repeat="food in foods"><a href="#">{{food.name}}</a></li>
+				<li ng-repeat="food in foods"><a href="#/{{mall_name}}/{{mall_id}}/food/{{food.store_id}}/store-details"</a>{{stripName(food.name)}}<div class="subtitle">{{getCat(food.store_id)}}</div></li>
 			</ul>
 		</div>
 	</div>

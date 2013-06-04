@@ -26,6 +26,14 @@ angular.module('foodServices', ['ngResource']).
   });
 });
 
+angular.module('categoryServices', ['ngResource']).
+    factory('Category', function($resource){
+  return $resource('data/categories.json', {}, {
+    query: {method:'GET', isArray:true}
+  });
+});
+
+
 
 
 
