@@ -1,4 +1,4 @@
-angular.module('ayalamalls', ['mallServices', 'storeServices', 'eventServices', 'foodServices','categoryServices']).
+angular.module('ayalamalls', ['mallServices']).
   config(['$routeProvider', function($routeProvider) {
   $routeProvider.
       when('/', {templateUrl: 'partials/home.html',   controller: HomeCtrl}).

@@ -3,36 +3,27 @@ angular.module('mallServices', ['ngResource']).
   return $resource('data/malls.json', {}, {
     query: {method:'GET', isArray:true}
   });
-});
-
-angular.module('storeServices', ['ngResource']).
+}).
     factory('Store', function($resource){
   return $resource('data/:mallId/stores.json', {}, {
     query: {method:'GET', isArray:true}
   });
-});
-
-angular.module('eventServices', ['ngResource']).
+}).
     factory('Event', function($resource){
   return $resource('data/:mallId/events.json', {}, {
     query: {method:'GET', isArray:true}
   });
-});
-
-angular.module('foodServices', ['ngResource']).
+}).
     factory('Food', function($resource){
   return $resource('data/:mallId/foods.json', {}, {
     query: {method:'GET', isArray:true}
   });
-});
-
-angular.module('categoryServices', ['ngResource']).
+}).
     factory('Category', function($resource){
   return $resource('data/categories.json', {}, {
     query: {method:'GET', isArray:true}
   });
 });
-
 
 
 
