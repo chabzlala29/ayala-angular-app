@@ -1,6 +1,6 @@
 angular.module('mallServices', ['ngResource']).
     factory('Mall', function($resource){
-  return $resource('data/malls.json', {}, {
+  return $resource("http://ayala360.net/api/v1/malls?callback=JSON_CALLBACK", {}, {
     query: {method:'GET', isArray:true}
   });
 }).

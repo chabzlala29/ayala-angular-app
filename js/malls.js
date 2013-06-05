@@ -1,13 +1,10 @@
 
-function HomeCtrl($scope, Mall) {
-  
-  // $http.get('data/malls.json').success(function(data) {
-  // $scope.malls = data;
-  //   console.log(data);
-  // });
-  $scope.malls = Mall.query();
-  $scope.title = 'Ayala Malls'
-  $scope.orderProp = 'position';
+function HomeCtrl($scope,$http, Mall) {
+    delete $http.defaults.headers.common['X-Requested-With'];
+
+    $scope.malls = Mall.query();
+ 	$scope.title = 'Ayala Malls'
+ 	$scope.orderProp = 'position';
 
 }
 
