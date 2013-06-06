@@ -14,6 +14,7 @@ angular.module('ayalamalls', ['mallServices']).
       when('/:mallName/:mallId/mall-information', {templateUrl: 'partials/mall_info.html', controller: MallFeatureCtrl}).
       when('/:mallName/:mallId/mall-location', {templateUrl: 'partials/mall_location.html', controller: MallFeatureCtrl}).
       when('/:mallName/:mallId/:mallCode/cinemas', {templateUrl: 'partials/cinemas.html', controller: CinemasCtrl}).
+      when('/:mallName/:mallId/:mallCode/cinemas/:movieTitle', {templateUrl: 'partials/movie_details.html', controller: MovieDetailsCtrl}).
       otherwise({redirectTo: '/'});
 }]);
 

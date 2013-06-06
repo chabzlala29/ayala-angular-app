@@ -174,6 +174,7 @@ function CinemasCtrl($scope, $routeParams, $http, Mall){
 	delete $http.defaults.headers.common['X-Requested-With'];
 	$scope.mall_name = $routeParams.mallName;
 	$scope.mall_id = $routeParams.mallId;
+	$scope.mall_code = $routeParams.mallCode;
 	$schedules = new Array();
 	$now_showing = new Array();
 	$coming_soon = new Array();
@@ -214,47 +215,42 @@ function CinemasCtrl($scope, $routeParams, $http, Mall){
 		})
 		return string;
 	}
+	
+}
+
+function MovieDetailsCtrl($scope, $routeParams, $http){
+	delete $http.defaults.headers.common['X-Requested-With'];
+	$scope.mall_name = $routeParams.mallName;
+	$scope.mall_id = $routeParams.mallId;
+	$scope.mall_code = $routeParams.mallCode
+	$scope.movie_title = $routeParams.movieTitle;
+	$http.get('http://ayala360.net/api/v1/sureseats_api_json_version?action=schedule&callback=JSON_CALLBACK').success(function(data){
+		 $.each(data['Movie']['Schedule'],function(index, item){
+		 	if($routeParams.mallCode.indexOf(item.theater_code) !== -1){
+		 		$schedules.push(item);
+		 	}
+		 });
+		 $scope.schedules = $schedules;
+	});
+	$http.get('http://ayala360.net/api/v1/sureseats_api_json_version?action=nowshowing&callback=JSON_CALLBACK').success(function(data){
+		 $.each(data['Movie']['Now_Showing'], function(index, item){
+		 	if($routeParams.movieTitle == item.movie_title){
+		 		$scope.artists = item.cast;
+		 		$scope.synopsis = item.synopsis;
+		 		$scope.picture = item.picture;
+		 		$.each($scope.schedules,function(i,item2){
+		 			if(item.movie_title == item2.movie_title){
+		 				$scope.ratings = item2.rating;
+		 			}
+		 		})
+		 	}
+		 });
+	});
+	$scope.goBack = function(hash){
+		$location.hash(hash);
+	}
 }
 
 function goBack(href){
 	window.location.href = href;
 }
-
-// Changes XML to JSON
-function xmlToJson(xml) {
-	
-	// Create the return object
-	var obj = {};
-
-	if (xml.nodeType == 1) { // element
-		// do attributes
-		if (xml.attributes.length > 0) {
-		obj["@attributes"] = {};
-			for (var j = 0; j < xml.attributes.length; j++) {
-				var attribute = xml.attributes.item(j);
-				obj["@attributes"][attribute.nodeName] = attribute.nodeValue;
-			}
-		}
-	} else if (xml.nodeType == 3) { // text
-		obj = xml.nodeValue;
-	}
-
-	// do children
-	if (xml.hasChildNodes()) {
-		for(var i = 0; i < xml.childNodes.length; i++) {
-			var item = xml.childNodes.item(i);
-			var nodeName = item.nodeName;
-			if (typeof(obj[nodeName]) == "undefined") {
-				obj[nodeName] = xmlToJson(item);
-			} else {
-				if (typeof(obj[nodeName].push) == "undefined") {
-					var old = obj[nodeName];
-					obj[nodeName] = [];
-					obj[nodeName].push(old);
-				}
-				obj[nodeName].push(xmlToJson(item));
-			}
-		}
-	}
-	return obj;
-};

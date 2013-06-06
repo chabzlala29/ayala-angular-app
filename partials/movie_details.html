@@ -1,0 +1,46 @@
+<div class="wrapper">
+		<div class="header">
+			<div class="button bordered back" onclick="goBack('#/{{mall_name}}/{{mall_id}}/{{mall_code}}/cinemas');">
+                <span class="pointer"></span>
+                <div class="content">
+                    <span class="label">Back</span>
+                </div>
+            </div>
+            <h2 id="movie-name">{{movie_title}}</h2>
+		</div>
+	</div>
+	<div class="main-content">
+		<div class="cinema-container">
+			<div id="movie-details-container" style="display:block;">
+				<div class="movie-scrollable" id="scrollable">
+					<div class="movie-header" id="movie_header">
+						<div style="text-align: center;"><p class="movie-title" id="movie-title"></p></div>
+						<img src="{{picture}}" style="float: left;" width="100px" height="155px">
+					</div>
+					<p class="artists" id="artists">{{artists}}</p>
+					<p class="rating" id="rating">{{ratings}}</p><br/><br/>
+					<p class="plot" id="plot">{{synopsis}}</p><br/>
+					<!-- <a href="" class="btn-buy">Buy Online</a><br/><br/> -->
+			    </div>
+			</div>
+			<div id="showtimes-container" style="display:none;">
+				<div class="movie-scrollable" id="scrollable">
+					<ul class="nav nav-tabs nav-stacked list-name" id="screening"></ul>
+			    </div>
+			</div>
+		</div>
+		<div class="cinema-footer">
+			<a href="#movie-details-container" id="movie-details">
+				<div class="movie-sched-option">
+					<img id="movie-details-icon" src="img/360Art/movie-details-active.png" width="20.8px"><br/>
+					<span>Movie Details</span>
+				</div>
+			</a>
+			<a href="#showtimes-container" id="showtimes">
+				<div class="movie-sched-option">
+					<img id="showtimes-icon" src="img/360Art/showtimes.png" width="30px"><br/>
+					<span>Showtimes</span>
+				</div>
+			</a>
+		</div>
+	</div>

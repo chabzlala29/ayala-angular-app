@@ -23,7 +23,7 @@
 				<div class="movie-scrollable" id="scrollable">
 					<ul class="nav nav-tabs nav-stacked list-name" id="now_showing">
 						<li ng-repeat="movie in now_showing">
-							<a href="">
+							<a href="#/{{mall_name}}/{{mall_id}}/{{mall_code}}/cinemas/{{movie.movie_title}}">
 								<div class="movie-title" id="movie-title">{{movie.movie_title}}</div><div class="subtitle">Next Showtime: {{ getDate(movie.movie_title)}}</div>
 							</a>
 						</li>
@@ -35,7 +35,7 @@
 					<ul class="nav nav-tabs nav-stacked list-name" id="coming_soon">
 						<li ng-repeat="movie in coming_soon">
 							<a href="">
-								<div class="movie-title" id="movie-title">{{movie.movie_title}}</div><div class="subtitle">Next Showtime: {{ getDate(movie.movie_title)}}</div>
+								<div class="movie-title" id="movie-title">{{movie.movie_title}}</div><div class="subtitle">Next Showtime: {{ movie.tentative }}</div>
 							</a>
 						</li>
 					</ul>
