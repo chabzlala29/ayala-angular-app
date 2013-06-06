@@ -93,12 +93,19 @@ function EventDetailsCtrl($scope, $routeParams, $http) {
 				$scope.advert_url = e.advert_url;
 				$scope.event_title = e.headline;
 				$scope.details = e.description;
-				$scope.period = '<b>' + dateFormat(e.starts_at, 'mmm dd, yyyy') + '</b> - <b>' + dateFormat(e.ends_at, 'mmm dd, yyyy') + '</b>';
-				$scope.terms = '<li>- '+event_details.terms;
-				$scope.disclaimer = '<li>- '+event_details.disclaimer;
+				$scope.starts_at = dateFormat(e.starts_at, 'mmm dd, yyyy');
+				$scope.ends_at = dateFormat(e.ends_at, 'mmm dd, yyyy');
+				$scope.terms = e.terms;
+				$scope.disclaimer = e.disclaimer;
 			}
 		});
 	})
+}
+
+function PromosCtrl($scope, $routeParams, Promos) {
+	$scope.mall_name = $routeParams.mallName;
+	$scope.mall_id = $routeParams.mallId;
+	$scope.promos = Promos.query({mallId: $routeParams.mallId});
 }
 
 function FoodCtrl($scope, $routeParams, Store, Food){
