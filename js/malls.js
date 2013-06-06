@@ -13,6 +13,11 @@ function MallFeatureCtrl($scope, $routeParams, $http) {
 	  			$scope.mall_name = data[x].name;
 	  			$scope.mall_id = data[x].id;
 	  			$scope.mall_code = data[x].tcode;
+	  			$scope.logo_url = data[x].logo_url;
+	  			$scope.photo_url = data[x].photo_url;
+	  			$scope.phone_number = data[x].phone_number;
+	  			$scope.email = data[x].email;
+	  			// $scope.coords = data[x].coordinates;
 	  		}
 	  	})
   	});

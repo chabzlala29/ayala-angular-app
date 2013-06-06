@@ -11,6 +11,8 @@ angular.module('ayalamalls', ['mallServices']).
       when('/:mallName/:mallId/promos/:promoId/promo-details', {templateUrl: 'partials/promo_details.html', controller: PromoDetailsCtrl}).
       when('/:mallName/:mallId/food', {templateUrl: 'partials/food.html', controller: FoodCtrl}).
       when('/:mallName/:mallId/food/:storeId/store-details', {templateUrl: 'partials/food_details.html', controller: FoodDetailsCtrl}).
+      when('/:mallName/:mallId/mall-information', {templateUrl: 'partials/mall_info.html', controller: MallFeatureCtrl}).
+      when('/:mallName/:mallId/mall-location', {templateUrl: 'partials/mall_location.html', controller: MallFeatureCtrl}).
       when('/:mallName/:mallId/:mallCode/cinemas', {templateUrl: 'partials/cinemas.html', controller: CinemasCtrl}).
       otherwise({redirectTo: '/'});
 }]);
