@@ -1,7 +1,6 @@
 
 function HomeCtrl($scope,$http, Mall) {
     delete $http.defaults.headers.common['X-Requested-With'];
-
     $scope.malls = Mall.query();
  	$scope.title = 'Ayala Malls'
  	$scope.orderProp = 'position';
@@ -9,11 +8,14 @@ function HomeCtrl($scope,$http, Mall) {
 }
 
 function MallFeatureCtrl($scope, $routeParams, $http) {
-  	$http.get('data/malls.json').success(function(data) {
+	delete $http.defaults.headers.common['X-Requested-With'];
+
+  	$http.get('http://ayala360.net/api/v1/malls?callback=JSON_CALLBACK').success(function(data) {
 	  	$.each(data,function(x){
 	  		if(data[x].id == $routeParams.mallId){
 	  			$scope.mall_name = data[x].name;
-	  			$scope.mall_id = data[x].id
+	  			$scope.mall_id = data[x].id;
+	  			$scope.mall_code = data[x].tcode;
 	  		}
 	  	})
   	});
@@ -21,14 +23,17 @@ function MallFeatureCtrl($scope, $routeParams, $http) {
 
 }
 
-function StoresCtrl($scope, $routeParams, Store, Category){
+function StoresCtrl($scope, $routeParams, $http, Store, Category){
+	delete $http.defaults.headers.common['X-Requested-With'];
+
 	$scope.alphabets = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
 	$scope.stores = Store.query({mallId: $routeParams.mallId});
 	$scope.mall_name = $routeParams.mallName;
 	$scope.mall_id = $routeParams.mallId;
 	$scope.query_category = '';
+
 	$scope.categories = Category.query();
-	
+
 	$scope.myFilter = function(letter){
 		var $array = new Array();
 		if(letter){
@@ -65,6 +70,9 @@ function StoresCtrl($scope, $routeParams, Store, Category){
 }
 
 function StoreDetailsCtrl($scope, $routeParams, $http){
+	delete $http.defaults.headers.common['X-Requested-With'];
+	$scope.mall_name = $routeParams.mallName;
+	$scope.mall_id = $routeParams.mallId;
 	$http.get('data/'+ $routeParams.mallId +'/stores.json').success(function(data) {
 		$.each(data, function(index){
 			if($routeParams.storeIndex == index){
@@ -78,13 +86,15 @@ function StoreDetailsCtrl($scope, $routeParams, $http){
 
 }
 
-function EventsCtrl($scope, $routeParams, Event){
+function EventsCtrl($scope, $routeParams, $http, Event){
+	delete $http.defaults.headers.common['X-Requested-With'];
 	$scope.mall_name = $routeParams.mallName;
 	$scope.mall_id = $routeParams.mallId;
 	$scope.events = Event.query({mallId: $routeParams.mallId});
 }
 
 function EventDetailsCtrl($scope, $routeParams, $http) {
+	delete $http.defaults.headers.common['X-Requested-With'];
 	$scope.mall_id = $routeParams.mallId;
 	$scope.mall_name = $routeParams.mallName;
 	$http.get('data/' + $routeParams.mallId + '/events.json').success(function(data) {
@@ -143,17 +153,34 @@ function FoodDetailsCtrl($scope, $routeParams, $http){
 }
 
 function CinemasCtrl($scope, $routeParams, $http, Mall){
+	delete $http.defaults.headers.common['X-Requested-With'];
 	$scope.mall_name = $routeParams.mallName;
 	$scope.mall_id = $routeParams.mallId;
-	$schedules_mall = new Array();
-	$http.get('data/xml/schedule.xml').success(
-		function parseXml(xml) {
-	        $(xml).find("Schedule").each(function() {
-	            var csMovie = $(this).find("theater_code").text();
-	            console.log(csMovie);
-	        });
-    	}
-	);
+	$schedules = new Array();
+	$now_showing = new Array();
+	$http.get('http://ayala360.net/api/v1/sureseats_api_json_version?action=schedule&callback=JSON_CALLBACK').success(function(data){
+		 $.each(data['Movie']['Schedule'],function(index, item){
+		 	if($routeParams.mallCode.indexOf(item.theater_code) !== -1){
+		 		$schedules.push(item);
+		 	}
+		 });
+		 console.log($schedules);
+	});
+	$http.get('http://ayala360.net/api/v1/sureseats_api_json_version?action=nowshowing&callback=JSON_CALLBACK').success(function(data){
+		 console.log(data['Movie']['Now_Showing'])
+		
+
+		 $.each(data['Movie']['Now_Showing'], function(index, item){
+		 	console.log($checker.indexOf(item.movie_title));
+		 	if($schedules.indexOf(item.movie_title) !== -1){
+		 		$now_showing.push(item);
+		 	}
+		 });
+	});
+
+	// $scope.cinemas = Movie.query();
+	// console.log($scope.cinemas['Movie']['Now_Showing']);
+	
 
     
 }

@@ -21,9 +21,9 @@
 			<div id="now-showing-container" style="display:block;">
 				<div class="movie-scrollable" id="scrollable">
 					<ul class="nav nav-tabs nav-stacked list-name" id="now_showing">
-						<li ng-repeat="movie in movies">
+						<li ng-repeat="movie in now_showing">
 							<a href="">
-								<div class="movie-title" id="movie-title"></div><div class="subtitle">Next Showtime: </div>
+								<div class="movie-title" id="movie-title">{{movie.movie_title}}</div><div class="subtitle">Next Showtime: </div>
 							</a>
 						</li>
 					</ul>
