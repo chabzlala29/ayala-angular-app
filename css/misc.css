@@ -884,7 +884,6 @@ ul.main-nav a#prefs.active {
 	width: 100%;
 }
 .events-scrollable {
-	height: 430px;
 	margin-left: 4%;
 	width: 93%;
 }
@@ -1292,9 +1291,10 @@ ul.events {
 	text-transform: uppercase;
 }
 .event-details-container {
-	height: 422px;
-	margin-left: 0 !important;
 	width: 100% !important;
+	position: absolute;
+	bottom: 40px;
+	top: 0;	
 }
 .event-promo-title {
 	color:#0a273c;

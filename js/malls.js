@@ -1,12 +1,9 @@
-
 function HomeCtrl($scope,$http, Mall) {
     delete $http.defaults.headers.common['X-Requested-With'];
     $scope.malls = Mall.query();
  	$scope.title = 'Ayala Malls'
  	$scope.orderProp = 'position';
-
 }
-
 function MallFeatureCtrl($scope, $routeParams, $http) {
 	delete $http.defaults.headers.common['X-Requested-With'];
 
@@ -16,13 +13,15 @@ function MallFeatureCtrl($scope, $routeParams, $http) {
 	  			$scope.mall_name = data[x].name;
 	  			$scope.mall_id = data[x].id;
 	  			$scope.mall_code = data[x].tcode;
+	  			$scope.logo_url = data[x].logo_url;
+	  			$scope.photo_url = data[x].photo_url;
+	  			$scope.phone_number = data[x].phone_number;
+	  			$scope.email = data[x].email;
+	  			// $scope.coords = data[x].coordinates;
 	  		}
 	  	})
   	});
-
-
 }
-
 function StoresCtrl($scope, $routeParams, $http, Store, Category){
 	delete $http.defaults.headers.common['X-Requested-With'];
 
@@ -64,11 +63,8 @@ function StoresCtrl($scope, $routeParams, $http, Store, Category){
 			});
 		}
 		return $array2;
-
-	}
-	  	
+	}	
 }
-
 function StoreDetailsCtrl($scope, $routeParams, $http){
 	delete $http.defaults.headers.common['X-Requested-With'];
 	$scope.mall_name = $routeParams.mallName;
@@ -83,18 +79,17 @@ function StoreDetailsCtrl($scope, $routeParams, $http){
 			}
 		});
 	});
-
 }
-
 function EventsCtrl($scope, $routeParams, $http, Event){
 	delete $http.defaults.headers.common['X-Requested-With'];
+
 	$scope.mall_name = $routeParams.mallName;
 	$scope.mall_id = $routeParams.mallId;
 	$scope.events = Event.query({mallId: $routeParams.mallId});
 }
-
 function EventDetailsCtrl($scope, $routeParams, $http) {
 	delete $http.defaults.headers.common['X-Requested-With'];
+
 	$scope.mall_id = $routeParams.mallId;
 	$scope.mall_name = $routeParams.mallName;
 	$http.get('data/' + $routeParams.mallId + '/events.json').success(function(data) {
@@ -111,14 +106,16 @@ function EventDetailsCtrl($scope, $routeParams, $http) {
 		});
 	})
 }
+function PromosCtrl($scope, $routeParams, $http, Promos) {
+	delete $http.defaults.headers.common['X-Requested-With'];
 
-function PromosCtrl($scope, $routeParams, Promos) {
 	$scope.mall_name = $routeParams.mallName;
 	$scope.mall_id = $routeParams.mallId;
 	$scope.promos = Promos.query({mallId: $routeParams.mallId});
 }
-
 function PromoDetailsCtrl($scope, $routeParams, $http) {
+	delete $http.defaults.headers.common['X-Requested-With'];
+
 	$scope.mall_id = $routeParams.mallId;
 	$scope.mall_name = $routeParams.mallName;
 	$http.get('data/' + $routeParams.mallId + '/promos.json').success(function(data) {
@@ -135,7 +132,6 @@ function PromoDetailsCtrl($scope, $routeParams, $http) {
 		});
 	})
 }
-
 function FoodCtrl($scope, $routeParams, Store, Food){
 	$scope.mall_name = $routeParams.mallName;
 	$scope.mall_id = $routeParams.mallId;
@@ -156,10 +152,7 @@ function FoodCtrl($scope, $routeParams, Store, Food){
 	$scope.stripName = function(name){
 		return name.slice(0,name.indexOf(' at'));
 	}
-		
-	
 }
-
 function FoodDetailsCtrl($scope, $routeParams, $http){
 	$scope.mall_id = $routeParams.mallId;
 	$scope.mall_name = $routeParams.mallName;
@@ -221,8 +214,6 @@ function CinemasCtrl($scope, $routeParams, $http, Mall){
 		})
 		return string;
 	}
-
-    
 }
 
 function goBack(href){

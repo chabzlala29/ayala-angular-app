@@ -1,3 +1,6 @@
+$(document).ready(function() {
+	$('#stores-name').click();
+});
 $(function(){
 	$('#search-store').keyup(function(){
 		$('#stores-by-category-container').css('display','none');
@@ -44,6 +47,4 @@ $(function(){
 		$('#stores-container').css('display','block');
 		$('#categories-container').css('display', 'none');
 	});
-
-	
 });

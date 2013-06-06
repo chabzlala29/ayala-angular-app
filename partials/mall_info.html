@@ -1,4 +1,3 @@
-<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 <div class="wrapper">
 	<div class="header-logo">
 		<div class="button bordered back" onclick="goBack('#/{{mall_name}}/{{mall_id}}');">
@@ -9,22 +8,19 @@
         </div>
 	</div>
 </div>
-
-<div id="myModal" class="reveal-modal">
-	<div style="height: 40px !important; width:40px !important;">
-		<img src="img/ajax-loader2.gif" width="30px" height="30px">
-	</div>
-</div>
-
 <div class="main-content">
-	<div class="events-scrollable" id="scrollable">
-		<ul class="nav nav-tabs nav-stacked promos" id="promos-list">
-			<li ng-repeat="p in promos">
-				<a href="#/{{mall_name}}/{{mall_id}}/promos/{{p.id}}/promo-details">
-					<img src="http://{{p.banner_url}}" width="100%" height="120px">
-				</a>
-			</li>
-		</ul>
+	<div class="black-container">
+		<div class="mall-info-header" id="mall-info-header">
+			<img src="http://{{logo_url}}" width="auto" height="64px" class="mall-logo">
+			<div style="margin: 0 auto;"></div>
+		</div>
+		<div style="margin: 0 auto;"><img style="width:100%;" src="img/360Art/cell_perference_seperator_234x2.png"></div>
+		<div class="mall-pic" id="mall-pic"><img src="http://{{photo_url}}" width="100%" height="135px"></div>
+		<h2 class="mall-phone-num" id="mall-phone-num">Mall Phone #: {{phone_number}}</h2>
+		<div class="mall-info-btn" id="mall-info-btn">
+			<a href="mailto:'{{email}}"><img src="img/360Art/button_email_74x16.png"></a>
+			<a href="#/{{mall_name}}/{{mall_id}}/mall-location"><img src="img/360Art/button_showOnMap_74x16.png"></a>
+		</div>
 	</div>
 </div>
 <div class="bottom-nav">

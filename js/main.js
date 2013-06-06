@@ -42,40 +42,22 @@ if (screen.width >= 320 && screen.width <= 720)  {
     })( this );
 }
 
-function goBackToMallFeatures() {
-    window.location.href = "partials/mall_feature.html";
-}
-
-function goBackToSpecificPage(feature_id) {
-    if (feature_id == 1){
-        window.location.href = "index.html";
-    }
-    else if (feature_id == 2){
-        window.location.href = "partials/mall_info.html";
-    }
-    else if (feature_id == 3){
-        window.location.href = "partials/promos.html";
-    }
-    else if (feature_id == 4){
-        window.location.href = "partials/stores.html";
-    } 
-    else if (feature_id == 5){
-        window.location.href = "partials/food.html";
-    } 
-    else if (feature_id == 6){
-        window.location.href = "partials/events.html";
-    } 
-    else {
-        window.location.href = "partials/cinema.html";
-    } 
-}
-
 $.ready(function() {
     $(".button").forEach(function(button) {
         button.bind("touchstart", function() { button.addClass("touched"); });
         button.bind("touchend", function() { button.removeClass("touched"); });
     });
 });
+
+function showAlert(feature) {
+    switch(feature) {
+    case 'amore':
+    case 'ufirst':
+        alert('This is not yet implemented.'); break;
+    default:
+        alert('Please download the mobile application version to have this feature.'); break;
+    }
+}
 
 //lock to portrait orientaion 
 // window.addEventListener("orientationchange", function() {
