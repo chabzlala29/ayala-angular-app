@@ -26,7 +26,9 @@ factory('Promos', function($resource){
 }).
     factory('Category', function($resource){
   return $resource('http://ayala360.net/api/v1/categories_mobile_web', {}, {
-
+    query: {method:'GET', isArray:true}
+  });
+})
 
 
 
