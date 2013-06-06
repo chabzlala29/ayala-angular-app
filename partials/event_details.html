@@ -1,3 +1,4 @@
+<script type="text/javascript" src="js/date.format.js"></script>
 <div class="wrapper">
 	<div class="header-logo">
 		<div class="button bordered back" onclick="goBack('#/{{mall_name}}/{{mall_id}}/events')">
@@ -15,10 +16,10 @@
 		</div>
 		<h2 class="event-promo-title" id="event-title">{{event_title}}</h2>
 		<p class="event-promo-details" id="event-details">{{details}}</p>
-		<p class="period" id="event-period">{{period}}</p>
-		<p class="blue-green-label">Terms & Conditions</p>
-		<ul class="terms-disclaimer" id="event-terms"></ul>
-		<p class="blue-green-label">Disclaimer</p>
-		<ul class="terms-disclaimer" id="event-disclaimer"></ul>
+		<p class="period" id="event-period"><b>{{starts_at}}</b> - <b>{{ends_at}}</b></p><br/>
+		<p class="blue-green-label">Terms & Conditions</p><br/>
+		<ul class="terms-disclaimer" id="event-terms"><li>- {{terms}}</li></ul><br/>
+		<p class="blue-green-label">Disclaimer</p><br/>
+		<ul class="terms-disclaimer" id="event-disclaimer"><li>- {{disclaimer}}</li></ul>
 	</div>
 </div>

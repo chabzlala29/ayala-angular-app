@@ -103,9 +103,34 @@ function EventDetailsCtrl($scope, $routeParams, $http) {
 				$scope.advert_url = e.advert_url;
 				$scope.event_title = e.headline;
 				$scope.details = e.description;
-				$scope.period = '<b>' + dateFormat(e.starts_at, 'mmm dd, yyyy') + '</b> - <b>' + dateFormat(e.ends_at, 'mmm dd, yyyy') + '</b>';
-				$scope.terms = '<li>- '+event_details.terms;
-				$scope.disclaimer = '<li>- '+event_details.disclaimer;
+				$scope.starts_at = dateFormat(e.starts_at, 'mmm dd, yyyy');
+				$scope.ends_at = dateFormat(e.ends_at, 'mmm dd, yyyy');
+				$scope.terms = e.terms;
+				$scope.disclaimer = e.disclaimer;
+			}
+		});
+	})
+}
+
+function PromosCtrl($scope, $routeParams, Promos) {
+	$scope.mall_name = $routeParams.mallName;
+	$scope.mall_id = $routeParams.mallId;
+	$scope.promos = Promos.query({mallId: $routeParams.mallId});
+}
+
+function PromoDetailsCtrl($scope, $routeParams, $http) {
+	$scope.mall_id = $routeParams.mallId;
+	$scope.mall_name = $routeParams.mallName;
+	$http.get('data/' + $routeParams.mallId + '/promos.json').success(function(data) {
+		$.each(data, function(index, p) {
+			if (p.id == $routeParams.promoId) {
+				$scope.advert_url = p.advert_url;
+				$scope.promo_title = p.headline;
+				$scope.details = p.description;
+				$scope.starts_at = dateFormat(p.starts_at, 'mmm dd, yyyy');
+				$scope.ends_at = dateFormat(p.ends_at, 'mmm dd, yyyy');
+				$scope.terms = p.terms;
+				$scope.disclaimer = p.disclaimer;
 			}
 		});
 	})

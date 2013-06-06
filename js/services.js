@@ -1,5 +1,5 @@
 angular.module('mallServices', ['ngResource']).
-    factory('Mall', function($resource){
+factory('Mall', function($resource){
   return $resource("http://ayala360.net/api/v1/malls?callback=JSON_CALLBACK", {}, {
     query: {method:'GET', isArray:true}
   });
@@ -9,8 +9,13 @@ angular.module('mallServices', ['ngResource']).
     query: {method:'GET', isArray:true}
   });
 }).
-    factory('Event', function($resource){
-  return $resource('http://ayala360.net/api/v1/malls/:mallId/events?callback=JSON_CALLBACK', {}, {
+factory('Event', function($resource){
+  return $resource('data/:mallId/events.json', {}, {
+    query: {method:'GET', isArray:true}
+  });
+}).
+factory('Promos', function($resource){
+  return $resource('data/:mallId/promos.json', {}, {
     query: {method:'GET', isArray:true}
   });
 }).
@@ -21,9 +26,7 @@ angular.module('mallServices', ['ngResource']).
 }).
     factory('Category', function($resource){
   return $resource('http://ayala360.net/api/v1/categories_mobile_web', {}, {
-    query: {method:'GET', isArray:true}
-  });
-})  
+
 
 
 
