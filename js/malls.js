@@ -108,6 +108,24 @@ function PromosCtrl($scope, $routeParams, Promos) {
 	$scope.promos = Promos.query({mallId: $routeParams.mallId});
 }
 
+function PromoDetailsCtrl($scope, $routeParams, $http) {
+	$scope.mall_id = $routeParams.mallId;
+	$scope.mall_name = $routeParams.mallName;
+	$http.get('data/' + $routeParams.mallId + '/promos.json').success(function(data) {
+		$.each(data, function(index, p) {
+			if (p.id == $routeParams.promoId) {
+				$scope.advert_url = p.advert_url;
+				$scope.promo_title = p.headline;
+				$scope.details = p.description;
+				$scope.starts_at = dateFormat(p.starts_at, 'mmm dd, yyyy');
+				$scope.ends_at = dateFormat(p.ends_at, 'mmm dd, yyyy');
+				$scope.terms = p.terms;
+				$scope.disclaimer = p.disclaimer;
+			}
+		});
+	})
+}
+
 function FoodCtrl($scope, $routeParams, Store, Food){
 	$scope.mall_name = $routeParams.mallName;
 	$scope.mall_id = $routeParams.mallId;

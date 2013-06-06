@@ -1,0 +1,44 @@
+<script type="text/javascript" src="js/date.format.js"></script>
+<div class="wrapper">
+	<div class="header-logo">
+		<div class="button bordered back" onclick="goBack('#/{{mall_name}}/{{mall_id}}/events')">
+            <span class="pointer"></span>
+            <div class="content">
+                <span class="label">Back</span>
+            </div>
+        </div>
+	</div>
+</div>
+<div class="main-content">
+	<div class="events-scrollable event-details-container" id="scrollable">
+		<div id="promotion-container">
+			<div class="full-width" id="promo-advert-banner">
+				<img src="http://{{advert_url}}" width="304px" height="235px" class="event-pic">
+			</div>
+			<h2 class="event-promo-title" id="promo-title">{{promo_title}}</h2><br/>
+			<p class="event-promo-details" id="promo-details">{{details}}</p><br/>
+			<p class="period" id="promo-period"><b>{{starts_at}}</b> - <b>{{ends_at}}</b></p><br/>
+			<p class="blue-green-label">Terms & Conditions</p><br/>
+			<ul class="terms-disclaimer" id="promo-terms"><li>- {{terms}}</li></ul><br/>
+			<p class="blue-green-label">Disclaimer</p><br/>
+			<ul class="terms-disclaimer" id="promo-disclaimer"><li>- {{disclaimer}}</li></ul>
+		</div>
+		<div id="store-location-container">
+	
+		</div>
+	</div>
+	<div class="cinema-footer">
+		<a href="#promotion-container" id="promotion">
+			<div class="promo-option">
+				<img id="promotion-icon" src="img/360Art/promotion-active.png" width="35px" height="31"><br/>
+				<span>Promotion</span>
+			</div>
+		</a>
+		<a href="#store-location-container" id="store-location">
+			<div class="promo-option">
+				<img id="store-location-icon" src="img/360Art/store-location.png" width="34px" height="31px"><br/>
+				<span>Store Location</span>
+			</div>
+		</a>
+	</div>
+</div>
