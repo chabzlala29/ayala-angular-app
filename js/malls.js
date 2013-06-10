@@ -17,10 +17,29 @@ function MallFeatureCtrl($scope, $routeParams, $http) {
 	  			$scope.photo_url = data[x].photo_url;
 	  			$scope.phone_number = data[x].phone_number;
 	  			$scope.email = data[x].email;
-	  			// $scope.coords = data[x].coordinates;
+	  			$scope.coordn8s = data[x].coordinates;
+	  			showMap($scope.coordn8s);
 	  		}
 	  	})
   	});
+}
+function showMap(coordn8s) {
+	coords = coordn8s;
+	coordinates = coords.split(",");
+
+	var mapOptions = {
+	  zoom: 16,
+	  center: new google.maps.LatLng(parseFloat(coordinates[0]),parseFloat(coordinates[1])),
+	  mapTypeId: google.maps.MapTypeId.ROADMAP
+	}
+	var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
+
+	var myLatLng = new google.maps.LatLng(parseFloat(coordinates[0]),parseFloat(coordinates[1]));
+	var beachMarker = new google.maps.Marker({
+	    position: myLatLng,
+	    map: map,
+	    animation:google.maps.Animation.BOUNCE
+	});
 }
 function StoresCtrl($scope, $routeParams, $http, Store, Category){
 	delete $http.defaults.headers.common['X-Requested-With'];

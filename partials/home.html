@@ -1,3 +1,4 @@
+
 <div class="wrapper">
 	<div class="header"><h2>{{title}}</h2></div>
 </div>
@@ -8,6 +9,9 @@
 		<div class="mall-container">
 			<div class="mall-scrollable" id="scrollable">
 				<ul class="menu" id="menu">
+					<div class="loading" ng-show="loading">
+						<img src="img/ajax_loader.gif"><span>Loading</style>
+					</div>
 					<li class="option" ng-repeat="mall in malls">
 						<a href="#/{{mall.name}}/{{mall.id}}">
 							<img src="http://{{mall.logo_url}}" width="62px" height="62px">
