@@ -12,4 +12,17 @@ $(function(){
 		$('#coming-soon-container').css('display','none')
 	});
 
+	$('#movie-details').click(function(){
+		$('#showtimes-container').css('display','none');
+		$('#movie-details-container').css('display','block');
+		$('#showtimes').css('background-color', 'transparent');
+		$('#movie-details').css('background-color', 'rgba(95, 95, 95, 0.701961)');
+	});
+	$('#showtimes').click(function(){
+		$('#movie-details-container').css('display','none');
+		$('#showtimes-container').css('display','block');
+		$('#movie-details').css('background-color', 'transparent');
+		$('#showtimes').css('background-color', 'rgba(95, 95, 95, 0.701961)');
+	});
+
 })

@@ -243,6 +243,7 @@ function MovieDetailsCtrl($scope, $routeParams, $http){
 	$scope.mall_id = $routeParams.mallId;
 	$scope.mall_code = $routeParams.mallCode
 	$scope.movie_title = $routeParams.movieTitle;
+	$schedules = new Array();
 	$http.get('http://ayala360.net/api/v1/sureseats_api_json_version?action=schedule&callback=JSON_CALLBACK').success(function(data){
 		 $.each(data['Movie']['Schedule'],function(index, item){
 		 	if($routeParams.mallCode.indexOf(item.theater_code) !== -1){
