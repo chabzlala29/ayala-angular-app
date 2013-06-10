@@ -53,6 +53,7 @@ function showAlert(feature) {
     switch(feature) {
     case 'amore':
     case 'ufirst':
+    case 'bottom-nav':
         alert('This is not yet implemented.'); break;
     default:
         alert('Please download the mobile application version to have this feature.'); break;

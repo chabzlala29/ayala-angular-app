@@ -1,5 +1,7 @@
 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-<div id="loading" style="display:none;position:relative;z-index:1000">loading...</div>
+
+<div class="loading" id="loading"><img src="img/ajax-loader.gif"></div>
+<div id="fade" class="black_overlay"></div>
 <div class="wrapper">
 	<div class="header-logo">
 		<div class="button bordered back" onclick="goBack('#/{{mall_name}}/{{mall_id}}');">
@@ -31,19 +33,19 @@
 <div class="bottom-nav">
 	<ul class="main-nav">
 		<li class="nav">
-			<a href="mall_features.html" id="home" class="active"></a>
+			<a href="#/{{mall_name}}/{{mall_id}}'" id="home" class="active"></a>
 		</li>
 		<li class="nav">
-			<a href="check_in.html" id="check_in"></a>
+			<a href="#" onclick="showAlert('bottom-nav')" id="check_in"></a>
 		</li>
 		<li class="nav">
-			<a href="favorites.html" id="favorites"></a>
+			<a href="#" onclick="showAlert('bottom-nav')" id="favorites"></a>
 		</li>
 		<li class="nav">
-			<a href="share.html" id="share"></a>
+			<a href="#" onclick="showAlert('bottom-nav')" id="share"></a>
 		</li>
 		<li class="nav">
-			<a href="prefs.html" id="prefs"></a>
+			<a href="#" onclick="showAlert('bottom-nav')" id="prefs"></a>
 		</li>
 	</ul>
 </div>

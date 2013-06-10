@@ -47,12 +47,14 @@ angular.module('SharedServices', [])
                 // do something on success
                 // todo hide the spinner
                 $('#loading').hide();
+                $('.black_overlay').fadeOut('slow');
                 return response;
 
             }, function (response) {
                 // do something on error
                 // todo hide the spinner
                 $('#loading').hide();
+                $('.black_overlay').fadeOut('slow');
                 return $q.reject(response);
             });
         };
