@@ -1,3 +1,4 @@
+
 <div class="wrapper">
 		<div class="header">
 			<div class="button bordered back" onclick="goBack('#/{{mall_name}}/{{mall_id}}/{{mall_code}}/cinemas');">
@@ -25,18 +26,20 @@
 			</div>
 			<div id="showtimes-container" style="display:none;">
 				<div class="movie-scrollable" id="scrollable">
-					<ul class="nav nav-tabs nav-stacked list-name" id="screening"></ul>
+					<ul class="nav nav-tabs nav-stacked list-name" id="screening">
+						<li ng-repeat="sched in schedules"><a>{{sched.screening}}</a></li>
+					</ul>
 			    </div>
 			</div>
 		</div>
 		<div class="cinema-footer">
-			<a href="#movie-details-container" id="movie-details">
+			<a href="" id="movie-details" style="background-color: rgba(95, 95, 95, 0.701961);">
 				<div class="movie-sched-option">
 					<img id="movie-details-icon" src="img/360Art/movie-details-active.png" width="20.8px"><br/>
 					<span>Movie Details</span>
 				</div>
 			</a>
-			<a href="#showtimes-container" id="showtimes">
+			<a href="" id="showtimes">
 				<div class="movie-sched-option">
 					<img id="showtimes-icon" src="img/360Art/showtimes.png" width="30px"><br/>
 					<span>Showtimes</span>
@@ -44,3 +47,4 @@
 			</a>
 		</div>
 	</div>
+	<script type="text/javascript" src="js/cinema.js"></script>	
