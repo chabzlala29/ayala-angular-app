@@ -53,7 +53,7 @@ function StoresCtrl($scope, $routeParams, $http, Store, Category){
 		$array2 = new Array();
 		
 		if($scope.query_category){
-			// console.log($scope.stores[0]);
+			console.log($scope.stores[0]);
 			$.each($scope.stores, function(index, item){
 				if(typeof item.categories[0] != 'undefined') {
 					if(item.categories[0].name == $scope.query_category){
@@ -174,70 +174,83 @@ function CinemasCtrl($scope, $routeParams, $http, Mall){
 	delete $http.defaults.headers.common['X-Requested-With'];
 	$scope.mall_name = $routeParams.mallName;
 	$scope.mall_id = $routeParams.mallId;
+	$scope.mall_code = $routeParams.mallCode;
 	$schedules = new Array();
 	$now_showing = new Array();
+	$coming_soon = new Array();
 	$http.get('http://ayala360.net/api/v1/sureseats_api_json_version?action=schedule&callback=JSON_CALLBACK').success(function(data){
 		 $.each(data['Movie']['Schedule'],function(index, item){
 		 	if($routeParams.mallCode.indexOf(item.theater_code) !== -1){
 		 		$schedules.push(item);
 		 	}
 		 });
-		 console.log($schedules);
+		 $scope.schedules = $schedules;
 	});
 	$http.get('http://ayala360.net/api/v1/sureseats_api_json_version?action=nowshowing&callback=JSON_CALLBACK').success(function(data){
-		 console.log(data['Movie']['Now_Showing'])
-		
-
+		 var $checker = JSON.stringify($schedules);
 		 $.each(data['Movie']['Now_Showing'], function(index, item){
-		 	console.log($checker.indexOf(item.movie_title));
-		 	if($schedules.indexOf(item.movie_title) !== -1){
+		 	if($checker.indexOf(item.movie_title) !== -1){
 		 		$now_showing.push(item);
 		 	}
 		 });
+		$scope.now_showing = $now_showing;
 	});
-	// $scope.cinemas = Movie.query();
-	// console.log($scope.cinemas['Movie']['Now_Showing']); 
+
+	$http.get('http://ayala360.net/api/v1/sureseats_api_json_version?action=comingsoon&callback=JSON_CALLBACK').success(function(data){
+		 var $checker = JSON.stringify($schedules);
+		 $.each(data['Movie']['Coming_Soon'], function(index, item){
+		 	if($checker.indexOf(item.movie_title) !== -1){
+		 		$coming_soon.push(item);
+		 	}
+		 });
+		$scope.coming_soon = $coming_soon;
+	});
+	$scope.getDate = function(movie){
+		var string = '';
+		// console.log($scope.schedules);
+		$.each($scope.schedules,function(i,item){
+			if(movie == item.movie_title){
+				string = item.screening;
+			}			
+		})
+		return string;
+	}
+	
+}
+
+function MovieDetailsCtrl($scope, $routeParams, $http){
+	delete $http.defaults.headers.common['X-Requested-With'];
+	$scope.mall_name = $routeParams.mallName;
+	$scope.mall_id = $routeParams.mallId;
+	$scope.mall_code = $routeParams.mallCode
+	$scope.movie_title = $routeParams.movieTitle;
+	$http.get('http://ayala360.net/api/v1/sureseats_api_json_version?action=schedule&callback=JSON_CALLBACK').success(function(data){
+		 $.each(data['Movie']['Schedule'],function(index, item){
+		 	if($routeParams.mallCode.indexOf(item.theater_code) !== -1){
+		 		$schedules.push(item);
+		 	}
+		 });
+		 $scope.schedules = $schedules;
+	});
+	$http.get('http://ayala360.net/api/v1/sureseats_api_json_version?action=nowshowing&callback=JSON_CALLBACK').success(function(data){
+		 $.each(data['Movie']['Now_Showing'], function(index, item){
+		 	if($routeParams.movieTitle == item.movie_title){
+		 		$scope.artists = item.cast;
+		 		$scope.synopsis = item.synopsis;
+		 		$scope.picture = item.picture;
+		 		$.each($scope.schedules,function(i,item2){
+		 			if(item.movie_title == item2.movie_title){
+		 				$scope.ratings = item2.rating;
+		 			}
+		 		})
+		 	}
+		 });
+	});
+	$scope.goBack = function(hash){
+		$location.hash(hash);
+	}
 }
 
 function goBack(href){
 	window.location.href = href;
 }
-
-// Changes XML to JSON
-function xmlToJson(xml) {
-	
-	// Create the return object
-	var obj = {};
-
-	if (xml.nodeType == 1) { // element
-		// do attributes
-		if (xml.attributes.length > 0) {
-		obj["@attributes"] = {};
-			for (var j = 0; j < xml.attributes.length; j++) {
-				var attribute = xml.attributes.item(j);
-				obj["@attributes"][attribute.nodeName] = attribute.nodeValue;
-			}
-		}
-	} else if (xml.nodeType == 3) { // text
-		obj = xml.nodeValue;
-	}
-
-	// do children
-	if (xml.hasChildNodes()) {
-		for(var i = 0; i < xml.childNodes.length; i++) {
-			var item = xml.childNodes.item(i);
-			var nodeName = item.nodeName;
-			if (typeof(obj[nodeName]) == "undefined") {
-				obj[nodeName] = xmlToJson(item);
-			} else {
-				if (typeof(obj[nodeName].push) == "undefined") {
-					var old = obj[nodeName];
-					obj[nodeName] = [];
-					obj[nodeName].push(old);
-				}
-				obj[nodeName].push(xmlToJson(item));
-			}
-		}
-	}
-	return obj;
-};

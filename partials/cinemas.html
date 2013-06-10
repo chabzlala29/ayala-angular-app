@@ -1,3 +1,4 @@
+
 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 <div class="wrapper">
 		<div class="header-logo">
@@ -22,8 +23,8 @@
 				<div class="movie-scrollable" id="scrollable">
 					<ul class="nav nav-tabs nav-stacked list-name" id="now_showing">
 						<li ng-repeat="movie in now_showing">
-							<a href="">
-								<div class="movie-title" id="movie-title">{{movie.movie_title}}</div><div class="subtitle">Next Showtime: </div>
+							<a href="#/{{mall_name}}/{{mall_id}}/{{mall_code}}/cinemas/{{movie.movie_title}}">
+								<div class="movie-title" id="movie-title">{{movie.movie_title}}</div><div class="subtitle">Next Showtime: {{ getDate(movie.movie_title)}}</div>
 							</a>
 						</li>
 					</ul>
@@ -31,18 +32,24 @@
 			</div>
 			<div id="coming-soon-container" style="display:none;">
 				<div class="movie-scrollable" id="scrollable">
-					<ul class="nav nav-tabs nav-stacked list-name" id="coming_soon"></ul>
+					<ul class="nav nav-tabs nav-stacked list-name" id="coming_soon">
+						<li ng-repeat="movie in coming_soon">
+							<a href="">
+								<div class="movie-title" id="movie-title">{{movie.movie_title}}</div><div class="subtitle">Next Showtime: {{ movie.tentative }}</div>
+							</a>
+						</li>
+					</ul>
 			    </div>
 			</div>
 		</div>
 		<div class="cinema-footer">
-			<a href="#now-showing-container" id="now-showing">
+			<a href="" style="background:rgba(95, 95, 95, 0.701961);" id="now-showing">
 				<div class="movie-sched-option">
 					<img id="now-showing-icon" src="img/360Art/now-showing-active.png" width="31.8px"><br/>
 					<span>Now Showing</span>
 				</div>
 			</a>
-			<a href="#coming-soon-container" id="coming-soon">
+			<a href="" id="coming-soon">
 				<div class="movie-sched-option">
 					<img id="coming-soon-icon" src="img/360Art/coming-soon.png" width="35px" height="40px"><br/>
 					<span>Coming Soon</span>
@@ -50,3 +57,4 @@
 			</a>
 		</div>
 	</div>
+<script type="text/javascript" src="js/cinema.js"></script>	
