@@ -4,10 +4,9 @@ function HomeCtrl($scope,$http, Mall) {
  	$scope.title = 'Ayala Malls'
  	$scope.orderProp = 'position';
 }
+function LoginCtrl($scope, $http, $routeParams) {
 
-// function ProfileCtrl($scope, $http) {
-// 	delete $http.defaults.headers.common['X-Requested-With'];
-// }
+}
 function RegistrationCtrl($scope, $http) {
 	delete $http.defaults.headers.common['X-Requested-With'];
 

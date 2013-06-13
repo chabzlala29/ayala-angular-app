@@ -42,12 +42,7 @@ if (screen.width >= 320 && screen.width <= 720)  {
     })( this );
 }
 
-$.ready(function() {
-    $(".button").forEach(function(button) {
-        button.bind("touchstart", function() { button.addClass("touched"); });
-        button.bind("touchend", function() { button.removeClass("touched"); });
-    });
-});
+
 
 function showAlert(feature) {
     switch(feature) {

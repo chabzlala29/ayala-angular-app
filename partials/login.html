@@ -1,0 +1,31 @@
+<script type="text/javascript" src="js/jquery.min.js"></script>
+
+<div class="wrapper">
+	<div class="header-logo"></div>
+</div>
+<div class="main-content">
+	<div class="logo">
+		<a href="#"><img src="img/360Art/logo_mallMenu_190x64.png" width="190px" height="64px" style="margin-top: -5px;"></a>
+	</div>
+	<div class="prefs-wrapper login-wrapper">
+		<div class="login-register">
+			<div class="login-text">Login your account.</div>
+			<form id="login" name="login" method="get" onsubmit="return loginAccount();">
+				<input type="text" id="email_address" name="email_address" placeholder="Email Address">
+			</form>
+			<input type="submit" class="btn-login" id="btn-login" value="Login">
+		</div>
+		<br/>
+		<div class="divider"></div>
+		<div class="login-register">
+			<div class="login-text" style="margin-bottom: 6px;">Register if you don't have<br/>an account yet.</div>
+			<button class="btn-login" href="#/registration">Register</button>
+		</div>
+		<br/>
+		<div class="divider"></div>
+		<div class="login-register">
+			<div class="login-text" style="margin-bottom: 6px;">Continue without login?</div>
+			<button class="btn-login" href="#/">Skip</button>
+		</div>
+	</div>
+</div>

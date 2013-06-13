@@ -616,9 +616,9 @@ ul.main-nav a#prefs.active {
 	font-size: 14px;
 	font-weight: bold;
 	height: 27px;
-	padding-top: 10px;
 	text-align: center;
 	width: 242px;
+	cursor: pointer;
 }
 .btn-orange,
 .btn-login {
@@ -628,8 +628,7 @@ ul.main-nav a#prefs.active {
 	display: block;
 	margin: 0 auto;
 	width: 80%;
-	height: 22px !important;
-	padding-top: 5px !important;
+	height: 30px !important;
 }
 .prefs-field {
 	float:left;	
@@ -1022,7 +1021,7 @@ ul.main-nav a#prefs.active {
 	height: 145px !important;
 	-webkit-border-radius: 3px 3px 0px 0px;
 	border-radius: 3px 3px 0px 0px;
-	width: 304px;
+	width: 100%;
 	margin: 0 auto;
 	display: block;
 }
