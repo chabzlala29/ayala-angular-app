@@ -4,6 +4,26 @@ function HomeCtrl($scope,$http, Mall) {
  	$scope.title = 'Ayala Malls'
  	$scope.orderProp = 'position';
 }
+
+// function ProfileCtrl($scope, $http) {
+// 	delete $http.defaults.headers.common['X-Requested-With'];
+// }
+function RegistrationCtrl($scope, $http) {
+	delete $http.defaults.headers.common['X-Requested-With'];
+
+	$scope.register = function() {
+		$.ajax({
+			type:'POST',
+			url: 'http://ayala360.net/api/v1/profile?callback=JSON_CALLBACK',
+			data:$('#registration').serialize(),
+			success: function(response) {
+	        	// window.location.href = "login.html";
+	        }
+	    });
+
+	    return false;
+	} 
+}
 function MallFeatureCtrl($scope, $routeParams, $http) {
 	delete $http.defaults.headers.common['X-Requested-With'];
 

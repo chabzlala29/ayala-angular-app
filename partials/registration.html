@@ -1,0 +1,45 @@
+<script type="text/javascript" src="js/jquery.min.js"></script>
+
+<div ng-controller="RegistrationCtrl">
+	<div class="wrapper">
+		<div class="header-logo">
+			<div class="button bordered back" onclick="goBack('#/');">
+	            <span class="pointer"></span>
+	            <div class="content">
+	                <a class="label">Ayala Malls</a>
+	            </div>
+	        </div>
+		</div>
+	</div>
+	<div class="main-content">
+		<div class="logo">
+			<a href="#"><img src="img/360Art/logo_mallMenu_190x64.png" width="190px" height="64px" style="margin-top: -5px;"></a>
+		</div>
+		<div class="prefs-wrapper registration" style="height: 306px;">
+			<br/>
+			<form id="registration" name="registration" method="post" ng-submit="register()">
+				<input type="text" placeholder="Your email address" style="display: block; margin: 0 auto; margin: 15px; width: 83%;" class="email" id="email" name="email">
+				<select id="age" name="age" style="display: block; margin: 0 auto; padding: 3px; width: 83%; margin-bottom: 15px;">
+					<option id="under_18" value="1">Under 18</option>
+					<option id="18-22" value="2">18-22</option>
+					<option id="23-27" value="3">23-27</option>
+					<option id="28-32" value="4">28-32</option>
+					<option id="33-37" value="5">33-37</option>
+					<option id="38-42" value="6">38-42</option>
+					<option id="43-47" value="7">43-47</option>
+					<option id="48-52" value="8">48-52</option>
+					<option id="53-57" value="9">53-57</option>
+					<option id="58-62" value="10">58-62</option>
+					<option id="63_above" value="11">63+</option>
+				</select>
+				<select id="gender" name="gender" style="display: block; margin: 0 auto; padding: 3px; width: 83%; margin-bottom: 15px;">
+					<option>Your gender</option>
+					<option value="1">Male</option>
+					<option value="0">Female</option>
+				</select>
+				<input type="submit" class="btn-login" id="btn-register" value="Register">
+			</form>
+			
+		</div>
+	</div>
+</div>

@@ -29,6 +29,11 @@ factory('Category', function($resource){
     query: {method:'GET', isArray:true}
   });
 });
+// factory('Profile', function($resource){
+//   return $resource('http://ayala360.net/api/v1/profile', {}, {
+//     query: {method:'GET', isArray:true}
+//   });
+// });
 
 angular.module('SharedServices', [])
     .config(function ($httpProvider) {

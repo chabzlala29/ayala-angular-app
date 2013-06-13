@@ -1439,6 +1439,12 @@ ul.events {
 	width: 83%;
 }
 
+/*-- REGISTRATION -- */
+.registration {
+	position: relative;
+	top: 95px !important;
+}
+
 /* --- Slideshow --- */
 #slideshowWrapper {
 	width: 100%;
