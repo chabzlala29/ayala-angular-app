@@ -1,0 +1,51 @@
+<div class="wrapper">
+	<div class="header">
+		<div class="button bordered back" onclick="goBack('#/{{mall_name}}/{{mall_id}}');">
+            <span class="pointer"></span>
+            <div class="content">
+                <a class="label">{{mall_name}}</a>
+            </div>
+        </div>
+        <div class="button bordered no-pointer">
+            <span class="label" id="btn-edit-favorites">Edit</span>
+            <span class="label" id="btn-done-favorites">Done</span>
+        </div>
+	</div>
+</div>
+<div class="main-content">
+	<div class="header search">
+		<input type="text" size="70"/>
+	</div>
+	<div class="favorites-container">
+		<div class="fave-scrollable" id="scrollable">
+			<div class="fave-header">My Favorites</div>
+			<br/>
+			<ul class="nav nav-tabs nav-stacked list-name" id="favorites">
+				<!-- <li><a href="#">test</a></li>
+				<li><a href="#">test</a></li>
+				<li><a href="#">test</a></li>
+				<li><a href="#">test</a></li> -->
+			</ul>
+			<ul class="nav nav-tabs nav-stacked list-name" id="delete-favorites"></ul>
+		</div>
+	</div>
+</div>
+<div class="bottom-nav">
+	<ul class="main-nav">
+		<li class="nav">
+			<a href="mall_features.html" id="home"></a>
+		</li>
+		<li class="nav">
+			<a href="check_in.html" id="check_in"></a>
+		</li>
+		<li class="nav">
+			<a href="favorites.html" id="favorites" class="active"></a>
+		</li>
+		<li class="nav">
+			<a href="share.html" id="share"></a>
+		</li>
+		<li class="nav">
+			<a href="prefs.html" id="prefs"></a>
+		</li>
+	</ul>
+</div>
