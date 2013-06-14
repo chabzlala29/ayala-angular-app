@@ -2,7 +2,8 @@ angular.module('ayalamalls', ['mallServices','SharedServices']).
   config(['$routeProvider', function($routeProvider) {
   $routeProvider.
       when('/', {templateUrl: 'partials/home.html',   controller: HomeCtrl}).
-      when('/:mallName/:mallId', {templateUrl: 'partials/mall_feature.html',   controller: MallFeatureCtrl}).
+      when('/:mallName/:mallId', {templateUrl: 'partials/mall_feature.html', controller: MallFeatureCtrl}).
+      when('/:mallName/:mallId/favorites', {templateUrl: 'partials/favorites.html', controller: FavoritesCtrl}).
       when('/:mallName/:mallId/stores', {templateUrl: 'partials/stores.html', controller: StoresCtrl}).
       when('/:mallName/:mallId/stores/:storeIndex', {templateUrl: 'partials/store_details.html', controller: StoreDetailsCtrl}).
       when('/:mallName/:mallId/events', {templateUrl: 'partials/events.html', controller: EventsCtrl}).

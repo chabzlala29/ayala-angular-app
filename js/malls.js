@@ -23,6 +23,11 @@ function RegistrationCtrl($scope, $http) {
 	    return false;
 	} 
 }
+function FavoritesCtrl($scope, $http, $routeParams) {
+	delete $http.defaults.headers.common['X-Requested-With'];
+    $scope.mall_name = $routeParams.mallName;
+	$scope.mall_id = $routeParams.mallId;
+}
 function MallFeatureCtrl($scope, $routeParams, $http) {
 	delete $http.defaults.headers.common['X-Requested-With'];
 
