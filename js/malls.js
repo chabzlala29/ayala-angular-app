@@ -7,7 +7,7 @@ function HomeCtrl($scope,$http, Mall) {
 function LoginCtrl($scope, $http, $routeParams) {
 
 }
-function RegistrationCtrl($scope, $http) {
+function RegistrationCtrl($scope, $http, Profile) {
 	delete $http.defaults.headers.common['X-Requested-With'];
 
 	$scope.register = function() {
@@ -16,11 +16,17 @@ function RegistrationCtrl($scope, $http) {
 			url: 'http://ayala360.net/api/v1/profile?callback=JSON_CALLBACK',
 			data:$('#registration').serialize(),
 			success: function(response) {
-	        	// window.location.href = "login.html";
+	        	window.location.href = "login.html";
 	        }
 	    });
 
 	    return false;
+	 // 	$scope.save = function() {
+		//   Profile.save($scope.profile, function(profile) {
+		//     $location.path('/edit/' + profile._id.$oid);
+		//   });
+		// }
+
 	} 
 }
 function MallFeatureCtrl($scope, $routeParams, $http) {
