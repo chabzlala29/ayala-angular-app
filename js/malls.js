@@ -1,13 +1,38 @@
+//GLOBAL VARS
+document.token = '';
+document.site_url = 'http://localhost/ayala-mall-angular(2)';
+
 function HomeCtrl($scope,$http, Mall) {
     delete $http.defaults.headers.common['X-Requested-With'];
+    
     $scope.malls = Mall.query();
  	$scope.title = 'Ayala Malls'
  	$scope.orderProp = 'position';
 }
 function LoginCtrl($scope, $http, $routeParams) {
-
+	delete $http.defaults.headers.common['X-Requested-With'];
+	$scope.loginEmail = function(){
+		$.ajax({
+			type: 'GET',
+			url: 'http://ayala360.net/api/v1/profile/web_login?email='+$('#email_address').val()+'&callback=JSON_CALLBACK',
+			success: function(data){
+				$.ajax({
+					type: 'GET',
+					url: document.site_url + '/php/sessions.php?action=token&token=' + data.token,
+					success: function(data){
+						document.token = data;
+						alert('Successfully logged in. You will now be redirected to Mall Lists.')
+						window.location = '#/home'
+					}
+				});
+			},
+			error: function(){
+				alert('Email not registered. You must sign up first');
+			}
+		});
+	}	
 }
-function RegistrationCtrl($scope, $http, Profile) {
+function RegistrationCtrl($scope, $http) {
 	delete $http.defaults.headers.common['X-Requested-With'];
 
 	$scope.register = function() {
@@ -16,23 +41,42 @@ function RegistrationCtrl($scope, $http, Profile) {
 			url: 'http://ayala360.net/api/v1/profile?callback=JSON_CALLBACK',
 			data:$('#registration').serialize(),
 			success: function(response) {
-	        	window.location.href = "login.html";
+				if(typeof response =='object'){
+					document.token = response.token;
+					$.ajax({
+						type: 'GET',
+						url: document.site_url +'/php/sessions.php?action=token&token=' + document.token,
+						success: function(){
+							document.location = '#/login';
+							alert("Successfully registered. Please login with your email");
+						}
+					});
+				}else{
+					alert("The email is already been taken. Please try another one.")
+				}
 	        }
 	    });
 
 	    return false;
-	 // 	$scope.save = function() {
-		//   Profile.save($scope.profile, function(profile) {
-		//     $location.path('/edit/' + profile._id.$oid);
-		//   });
-		// }
-
 	} 
 }
 function FavoritesCtrl($scope, $http, $routeParams) {
 	delete $http.defaults.headers.common['X-Requested-With'];
-    $scope.mall_name = $routeParams.mallName;
+	$scope.mall_name = $routeParams.mallName;
 	$scope.mall_id = $routeParams.mallId;
+    $.ajax({
+    	type: 'GET',
+		url: document.site_url + '/php/sessions.php?action=getToken',
+		success: function(data){
+			$.ajax({
+				type: 'GET',
+				url: 'http://ayala360.net/api/v1/favorites?token='+ data +'&callback=JSON_CALLBACK',
+				success: function(data){
+					console.log(data);
+				}
+			});
+		}
+    });
 }
 function MallFeatureCtrl($scope, $routeParams, $http) {
 	delete $http.defaults.headers.common['X-Requested-With'];

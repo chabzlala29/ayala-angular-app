@@ -10,10 +10,10 @@
 	<div class="prefs-wrapper login-wrapper">
 		<div class="login-register">
 			<div class="login-text">Login your account.</div>
-			<form id="login" name="login" method="get" onsubmit="return loginAccount();">
-				<input type="text" id="email_address" name="email_address" placeholder="Email Address">
+			<form id="login" name="login" method="get" ng-submit="loginEmail()">
+				<input type="text" id="email_address" name="email_address" ng-model="email" placeholder="Email Address">
+				<input type="submit" class="btn-login" id="btn-login" value="Login">
 			</form>
-			<input type="submit" class="btn-login" id="btn-login" value="Login">
 		</div>
 		<br/>
 		<div class="divider"></div>
