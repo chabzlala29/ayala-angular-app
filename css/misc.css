@@ -1457,7 +1457,7 @@ ul#ads_slideshow li a img {
 	width: 100% !important;
 }
 
-@media (min-width: 481px) and (max-width: 640px) {
+@media (max-width: 640px) {
 	body{ width: 100%;}
 	ul.menu {
 		width: 82%;
@@ -1476,7 +1476,7 @@ ul#ads_slideshow li a img {
 		height: 120px !important;
 	}
 }
-@media (min-width: 321px) and (max-width: 480px) {
+@media (max-width: 480px) {
 	body { width: 100% !important; min-height: 480px !important; }
 	.main-content { height: auto !important; }
 	.mall-scrollable {
