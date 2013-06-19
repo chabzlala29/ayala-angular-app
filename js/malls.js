@@ -16,15 +16,16 @@ function LoginCtrl($scope, $http, $routeParams) {
 			type: 'GET',
 			url: 'http://ayala360.net/api/v1/profile/web_login?email='+$('#email_address').val()+'&callback=JSON_CALLBACK',
 			success: function(data){
-				$.ajax({
-					type: 'GET',
-					url: document.site_url + '/php/sessions.php?action=token&token=' + data.token,
-					success: function(data){
-						document.token = data;
-						alert('Successfully logged in. You will now be redirected to Mall Lists.')
-						window.location = '#/home'
-					}
-				});
+				// $.ajax({
+				// 	type: 'GET',
+				// 	url: document.site_url + '/php/sessions.php?action=token&token=' + data.token,
+				// 	success: function(data){
+						// document.token = data.token;
+						sessionStorage.token = data.token;
+						alert('Successfully logged in. You will now be redirected to Mall Lists.');
+						window.location.href = '#/home';
+				// 	}
+				// });
 			},
 			error: function(){
 				alert('Email not registered. You must sign up first');
@@ -42,15 +43,15 @@ function RegistrationCtrl($scope, $http) {
 			data:$('#registration').serialize(),
 			success: function(response) {
 				if(typeof response =='object'){
-					document.token = response.token;
-					$.ajax({
-						type: 'GET',
-						url: document.site_url +'/php/sessions.php?action=token&token=' + document.token,
-						success: function(){
+					// document.token = response.token;
+					// $.ajax({
+					// 	type: 'GET',
+					// 	url: document.site_url +'/php/sessions.php?action=token&token=' + document.token,
+					// 	success: function(){
 							document.location = '#/login';
-							alert("Successfully registered. Please login with your email");
-						}
-					});
+							alert("Successfully registered. Please login with your email.");
+					// 	}
+					// });
 				}else{
 					alert("The email is already been taken. Please try another one.")
 				}
@@ -77,6 +78,66 @@ function FavoritesCtrl($scope, $http, $routeParams) {
 			});
 		}
     });
+}
+function PrefsCtrl($scope, $routeParams, $http) {
+	delete $http.defaults.headers.common['X-Requested-With'];
+
+	$scope.mall_name = $routeParams.mallName;
+	$scope.mall_id = $routeParams.mallId;
+
+	$('input[name=gender]').click(function($scope){
+		if ($('#gender_male').attr('checked')=='checked') {
+			$('#gender_value').html("Male");
+		}
+		else {
+			$('#gender_value').html("Female");
+		}
+	});
+
+	$http.get('http://ayala360.net/api/v1/profile/web_login?token='+sessionStorage.token+'&callback=JSON_CALLBACK').success(function(data) {
+		if(data.gender == 0) {
+			$('#gender_female').attr('checked', 'checked'); $('#gender_value').html('Female');
+		}
+		else {
+			$('#gender_male').attr('checked', 'checked'); $('#gender_value').html('Male');
+		}
+
+		if (data.age == '1') { $('#under_18').attr('selected', 'selected'); }
+		else if (data.age == '2') { $('#18-22').attr('selected', 'selected'); }
+		else if (data.age == '3') { $('#23-27').attr('selected', 'selected'); }
+		else if (data.age == '4') { $('#28-32').attr('selected', 'selected'); }
+		else if (data.age == '5') { $('#33-37').attr('selected', 'selected'); }
+		else if (data.age == '6') { $('#38-42').attr('selected', 'selected'); }
+		else if (data.age == '7') { $('#43-47').attr('selected', 'selected'); }
+		else if (data.age == '8') { $('#48-52').attr('selected', 'selected'); }
+		else if (data.age == '9') { $('#53-57').attr('selected', 'selected'); }
+		else if (data.age == '10') { $('#58-62').attr('selected', 'selected'); }
+		else if (data.age == '11') { $('#63_above').attr('selected', 'selected'); }
+
+		$scope.email_address = data.email;
+	});
+
+	$('#btn-edit-prefs').click(function() {
+		$('#prefs-form').submit();
+	});
+
+	$scope.editPrefs = function() {
+		$.ajax({
+			type:'POST',
+			url: 'http://ayala360.net/api/v1/profile?web_login?token='+sessionStorage.token+'&callback=JSON_CALLBACK',
+			data:$('#prefs-form').serialize(),
+			success: function(response) {
+				if(typeof response =='object'){
+					// document.location = '#/'+$routeParams.mallName+'/'+$routeParams.mallName+'/preferences';
+					alert("Successfully edited");
+				}else{
+					alert("The email is already been taken. Please try another one.")
+				}
+	        }
+	    });
+
+	    return false;
+	}
 }
 function MallFeatureCtrl($scope, $routeParams, $http) {
 	delete $http.defaults.headers.common['X-Requested-With'];

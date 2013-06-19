@@ -1,0 +1,76 @@
+<div class="wrapper">
+	<div class="header-logo">
+		<div class="button bordered back" onclick="goBack('#/{{mall_name}}/{{mall_id}}');">
+            <span class="pointer"></span>
+            <div class="content">
+                <a class="label">{{mall_name}}</a>
+            </div>
+        </div>
+        <div class="button bordered no-pointer" id="btn-edit-prefs">
+            <span class="label">Done</span>
+        </div>
+	</div>
+</div>
+<div class="main-content">
+	<div class="prefs-wrapper">
+		<form id="prefs-form" name="prefs-form" method="post" ng-submit="editPrefs()">
+			<div class="prefs-header">Preferences</div>
+			<div class="prefs-field">
+				<legend>Gender</legend>
+				<div class="field">
+					<span class="toggle-bg-prefs">
+					    <input type="radio" name="gender" id="gender_male" value="1">
+					    <input type="radio" name="gender" id="gender_female" value="0">
+					    <div class="switch" id="gender_value">Male</div>
+					</span>
+				</div>
+			</div>
+			<div class="divider"></div>
+			<div class="prefs-field">
+				<legend>Age</legend>
+				<div class="field">
+					<select id="age" name="age">
+						<option>Your age</option>
+						<option id="under_18" value="1">Under 18</option>
+						<option id="18-22" value="2">18-22</option>
+						<option id="23-27" value="3">23-27</option>
+						<option id="28-32" value="4">28-32</option>
+						<option id="33-37" value="5">33-37</option>
+						<option id="38-42" value="6">38-42</option>
+						<option id="43-47" value="7">43-47</option>
+						<option id="48-52" value="8">48-52</option>
+						<option id="53-57" value="9">53-57</option>
+						<option id="58-62" value="10">58-62</option>
+						<option id="63_above" value="11">63+</option>
+					</select>
+				</div>
+			</div>
+			<div class="divider"></div>
+			<div class="prefs-field">
+				<legend>Email</legend>
+				<div class="field">
+					<input type="text" id="email" name="email" value="{{email_address}}">
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
+<div class="bottom-nav">
+	<ul class="main-nav">
+		<li class="nav">
+			<a href="#/{{mall_name}}/{{mall_id}}" id="home"></a>
+		</li>
+		<li class="nav">
+			<a href="check_in.html" id="check_in"></a>
+		</li>
+		<li class="nav">
+			<a href="#/{{mall_name}}/{{mall_id}}/favorites" id="favorites"></a>
+		</li>
+		<li class="nav">
+			<a href="share.html" id="share"></a>
+		</li>
+		<li class="nav">
+			<a href="#/{{mall_name}}/{{mall_id}}/preferences" id="prefs" class="active"></a>
+		</li>
+	</ul>
+</div>

@@ -595,6 +595,9 @@ ul.main-nav a#prefs.active {
 	margin-left: 12px;
 	margin-top: 10px;
 }
+.prefs-header {
+	line-height: 27px;
+}
 .prefs-header,
 .offers-header,
 .btn-orange,
@@ -1433,8 +1436,8 @@ ul.events {
 }
 #login input {
 	display: block;
+	margin-top: 15px !important;
 	margin: 0 auto;
-	margin: 15px;
 	width: 83%;
 }
 
