@@ -1,3 +1,4 @@
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 <div class="wrapper">
 	<div class="header">
 		<div class="button bordered back" onclick="goBack('#/{{mall_name}}/{{mall_id}}');">
@@ -6,10 +7,10 @@
                 <a class="label">{{mall_name}}</a>
             </div>
         </div>
-        <!-- <div class="button bordered no-pointer">
+        <div class="button bordered no-pointer">
             <span class="label" id="btn-edit-favorites">Edit</span>
-            <span class="label" id="btn-done-favorites">Done</span>
-        </div> -->
+            <span class="label" style="display:none" id="btn-done-favorites">Done</span>
+        </div>
 
 	</div>
 </div>
@@ -22,10 +23,7 @@
 			<div class="fave-header">My Favorites</div>
 			<br/>
 			<ul class="nav nav-tabs nav-stacked list-name" id="favorites">
-				<!-- <li><a href="#">test</a></li>
-				<li><a href="#">test</a></li>
-				<li><a href="#">test</a></li>
-				<li><a href="#">test</a></li> -->
+				<li ng-repeat="fave in favorites"><a href="#/{{mall_name}}/{{mall_id}}/stores/{{fave.store_location_id}}">{{fave.store_name}}</a></li>
 			</ul>
 			<ul class="nav nav-tabs nav-stacked list-name" id="delete-favorites"></ul>
 		</div>

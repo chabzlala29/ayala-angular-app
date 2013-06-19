@@ -6,7 +6,7 @@ angular.module('ayalamalls', ['mallServices','SharedServices']).
       when('/:mallName/:mallId/preferences', {templateUrl: 'partials/prefs.html', controller: PrefsCtrl}).
       when('/:mallName/:mallId/favorites', {templateUrl: 'partials/favorites.html', controller: FavoritesCtrl}).
       when('/:mallName/:mallId/stores', {templateUrl: 'partials/stores.html', controller: StoresCtrl}).
-      when('/:mallName/:mallId/stores/:storeIndex', {templateUrl: 'partials/store_details.html', controller: StoreDetailsCtrl}).
+      when('/:mallName/:mallId/stores/:storeId', {templateUrl: 'partials/store_details.html', controller: StoreDetailsCtrl}).
       when('/:mallName/:mallId/events', {templateUrl: 'partials/events.html', controller: EventsCtrl}).
       when('/:mallName/:mallId/events/:eventId/event-details', {templateUrl: 'partials/event_details.html', controller: EventDetailsCtrl}).
       when('/:mallName/:mallId/promos', {templateUrl: 'partials/promos.html', controller: PromosCtrl}).

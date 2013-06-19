@@ -9,6 +9,11 @@ factory('Store', function($resource){
     query: {method:'GET', isArray:true}
   });
 }).
+factory('StoreDetails', function($resource){
+  return $resource('http://ayala360.net/api/v1/stores/:storeId?callback=JSON_CALLBACK', {}, {
+    query: {method:'GET', isArray:true}
+  });
+}).
 factory('Event', function($resource){
   return $resource('http://ayala360.net/api/v1/malls/:mallId/events?callback=JSON_CALLBACK', {}, {
     query: {method:'GET', isArray:true}

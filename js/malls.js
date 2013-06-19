@@ -61,23 +61,16 @@ function RegistrationCtrl($scope, $http) {
 	    return false;
 	} 
 }
-function FavoritesCtrl($scope, $http, $routeParams) {
+function FavoritesCtrl($scope, $http, $routeParams, Favorites) {
 	delete $http.defaults.headers.common['X-Requested-With'];
 	$scope.mall_name = $routeParams.mallName;
 	$scope.mall_id = $routeParams.mallId;
-    $.ajax({
-    	type: 'GET',
-		url: document.site_url + '/php/sessions.php?action=getToken',
-		success: function(data){
-			$.ajax({
-				type: 'GET',
-				url: 'http://ayala360.net/api/v1/favorites?token='+ data +'&callback=JSON_CALLBACK',
-				success: function(data){
-					console.log(data);
-				}
-			});
-		}
-    });
+	$scope.favorites = [];
+	$http.get('http://ayala360.net/api/v1/favorites?token='+ sessionStorage.token +'&callback=JSON_CALLBACK').success(function(data){
+		
+		$scope.favorites = data;
+	});
+   
 }
 function PrefsCtrl($scope, $routeParams, $http) {
 	delete $http.defaults.headers.common['X-Requested-With'];
@@ -219,20 +212,29 @@ function StoresCtrl($scope, $routeParams, $http, Store, Category){
 		return $array2;
 	}	
 }
-function StoreDetailsCtrl($scope, $routeParams, $http){
+function StoreDetailsCtrl($scope, $routeParams, $http, StoreDetails){
 	delete $http.defaults.headers.common['X-Requested-With'];
 	$scope.mall_name = $routeParams.mallName;
 	$scope.mall_id = $routeParams.mallId;
-	$http.get('data/'+ $routeParams.mallId +'/stores.json').success(function(data) {
-		$.each(data, function(index){
-			if($routeParams.storeIndex == index){
-				$scope.location = 'Located on ' + data[index].location + '. ' + data[index].contact;
-				console.log($scope.location);
-				$scope.name = data[index].store_name;
-				$scope.details = data[index].description;
-			}
-		});
+	$scope.store_id = $routeParams.storeId;
+	$store_details = StoreDetails.query({storeId: $routeParams.storeId});
+	$http.get('http://ayala360.net/api/v1/stores/'+ $routeParams.storeId+'&callback=JSON_CALLBACK').success(function(data) {
+		$scope.location = 'Located on ' + data.location + '. ' + data.contact;
+		$scope.name = data.store_name;
+		$scope.details = data.description;
 	});
+
+	$scope.addToFavorites = function(){
+		$.ajax({
+			type:'POST',
+			url: 'http://ayala360.net/api/v1/favorites?store_location_id=' + $routeParams.storeId + '&token='+ sessionStorage.token +'&callback=JSON_CALLBACK',
+			data:$('#registration').serialize(),
+			success: function(response) {
+				alert('You successfully added this '+ $scope.name + ' to your favorite list.')
+	        }
+	    });
+	}
+	
 }
 function EventsCtrl($scope, $routeParams, $http, Event){
 	delete $http.defaults.headers.common['X-Requested-With'];
