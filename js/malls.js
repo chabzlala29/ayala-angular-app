@@ -16,16 +16,9 @@ function LoginCtrl($scope, $http, $routeParams) {
 			type: 'GET',
 			url: 'http://ayala360.net/api/v1/profile/web_login?email='+$('#email_address').val()+'&callback=JSON_CALLBACK',
 			success: function(data){
-				// $.ajax({
-				// 	type: 'GET',
-				// 	url: document.site_url + '/php/sessions.php?action=token&token=' + data.token,
-				// 	success: function(data){
-						// document.token = data.token;
-						sessionStorage.token = data.token;
-						alert('Successfully logged in. You will now be redirected to Mall Lists.');
-						window.location.href = '#/home';
-				// 	}
-				// });
+				sessionStorage.token = data.token;
+				alert('Successfully logged in. You will now be redirected to Mall Lists.');
+				window.location.href = '#/home';
 			},
 			error: function(){
 				alert('Email not registered. You must sign up first');
@@ -43,15 +36,8 @@ function RegistrationCtrl($scope, $http) {
 			data:$('#registration').serialize(),
 			success: function(response) {
 				if(typeof response =='object'){
-					// document.token = response.token;
-					// $.ajax({
-					// 	type: 'GET',
-					// 	url: document.site_url +'/php/sessions.php?action=token&token=' + document.token,
-					// 	success: function(){
-							document.location = '#/login';
-							alert("Successfully registered. Please login with your email.");
-					// 	}
-					// });
+					document.location = '#/login';
+					alert("Successfully registered. Please login with your email.");
 				}else{
 					alert("The email is already been taken. Please try another one.")
 				}
@@ -71,8 +57,8 @@ function FavoritesCtrl($scope, $http, $routeParams) {
 		document.location = '#/login';
 	}else{
 		$http.get('http://ayala360.net/api/v1/favorites?token='+ sessionStorage.token +'&callback=JSON_CALLBACK').success(function(data){
-			
 			$scope.favorites = data;
+			sessionStorage.fave_id = data
 		});
 	}
 
@@ -137,7 +123,6 @@ function PrefsCtrl($scope, $routeParams, $http) {
 			data:$('#prefs-form').serialize(),
 			success: function(response) {
 				if(typeof response =='object'){
-					// document.location = '#/'+$routeParams.mallName+'/'+$routeParams.mallName+'/preferences';
 					alert("Successfully edited");
 				}else{
 					alert("The email is already been taken. Please try another one.")
@@ -249,12 +234,12 @@ function StoreDetailsCtrl($scope, $routeParams, $http, StoreDetails){
 				type:'POST',
 				url: 'http://ayala360.net/api/v1/favorites?store_location_id=' + $routeParams.storeId + '&token='+ sessionStorage.token +'&callback=JSON_CALLBACK',
 				success: function(response) {
-					alert('You successfully added this '+ $scope.name + ' to your favorite list.')
+					$('#btn-add-favorite').addClass('active');
+					alert('You successfully added this '+ $scope.name + ' to your favorite list.');
 		        }
 		    });
 		}
 	}
-	
 }
 function EventsCtrl($scope, $routeParams, $http, Event){
 	delete $http.defaults.headers.common['X-Requested-With'];
