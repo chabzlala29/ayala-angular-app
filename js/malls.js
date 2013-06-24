@@ -61,16 +61,32 @@ function RegistrationCtrl($scope, $http) {
 	    return false;
 	} 
 }
-function FavoritesCtrl($scope, $http, $routeParams, Favorites) {
+function FavoritesCtrl($scope, $http, $routeParams) {
 	delete $http.defaults.headers.common['X-Requested-With'];
 	$scope.mall_name = $routeParams.mallName;
 	$scope.mall_id = $routeParams.mallId;
 	$scope.favorites = [];
-	$http.get('http://ayala360.net/api/v1/favorites?token='+ sessionStorage.token +'&callback=JSON_CALLBACK').success(function(data){
-		
-		$scope.favorites = data;
-	});
-   
+	if(typeof sessionStorage.token == "undefined"){
+		alert('You must logged in first before viewing this page.');
+		document.location = '#/login';
+	}else{
+		$http.get('http://ayala360.net/api/v1/favorites?token='+ sessionStorage.token +'&callback=JSON_CALLBACK').success(function(data){
+			
+			$scope.favorites = data;
+		});
+	}
+
+	$scope.deleteFavorite = function(id){
+		confirm('Are you sure you want to delete this store to your favorites?');
+		$.ajax({
+			type:'DELETE',
+			url: 'http://ayala360.net/api/v1/favorites?store_location_id=' + id + '&token='+ sessionStorage.token +'&callback=JSON_CALLBACK',
+			success: function(response) {
+				alert('You successfully deleted this store to your favorite list.');
+
+	        }
+	    });
+	}
 }
 function PrefsCtrl($scope, $routeParams, $http) {
 	delete $http.defaults.headers.common['X-Requested-With'];
@@ -225,14 +241,18 @@ function StoreDetailsCtrl($scope, $routeParams, $http, StoreDetails){
 	});
 
 	$scope.addToFavorites = function(){
-		$.ajax({
-			type:'POST',
-			url: 'http://ayala360.net/api/v1/favorites?store_location_id=' + $routeParams.storeId + '&token='+ sessionStorage.token +'&callback=JSON_CALLBACK',
-			data:$('#registration').serialize(),
-			success: function(response) {
-				alert('You successfully added this '+ $scope.name + ' to your favorite list.')
-	        }
-	    });
+		if(typeof sessionStorage.token == "undefined"){
+			alert('You must first logged in before adding this store to your favorites');
+			document.location = '#/login';
+		}else{
+			$.ajax({
+				type:'POST',
+				url: 'http://ayala360.net/api/v1/favorites?store_location_id=' + $routeParams.storeId + '&token='+ sessionStorage.token +'&callback=JSON_CALLBACK',
+				success: function(response) {
+					alert('You successfully added this '+ $scope.name + ' to your favorite list.')
+		        }
+		    });
+		}
 	}
 	
 }
