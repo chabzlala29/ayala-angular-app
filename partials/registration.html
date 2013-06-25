@@ -18,7 +18,7 @@
 		<div class="prefs-wrapper registration" style="height: 306px;">
 			<br/>
 			<form id="registration" name="registration" method="post" ng-submit="register()">
-				<input type="text" placeholder="Your email address" style="display: block; margin: 0 auto; margin: 15px; width: 83%;" class="email" id="email" name="email">
+				<input type="email" requireed placeholder="Your email address" style="display: block; margin: 0 auto; margin: 15px; width: 83%;" class="email" id="email" name="email">
 				<select id="age" name="age" style="display: block; margin: 0 auto; padding: 3px; width: 83%; margin-bottom: 15px;">
 					<option id="under_18" value="1">Under 18</option>
 					<option id="18-22" value="2">18-22</option>
@@ -32,8 +32,8 @@
 					<option id="58-62" value="10">58-62</option>
 					<option id="63_above" value="11">63+</option>
 				</select>
-				<select id="gender" name="gender" style="display: block; margin: 0 auto; padding: 3px; width: 83%; margin-bottom: 15px;">
-					<option>Your gender</option>
+				<select id="gender" required name="gender" style="display: block; margin: 0 auto; padding: 3px; width: 83%; margin-bottom: 15px;">
+					<option value="">Your gender</option>
 					<option value="1">Male</option>
 					<option value="0">Female</option>
 				</select>

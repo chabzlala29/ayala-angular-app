@@ -56,7 +56,7 @@ function FavoritesCtrl($scope, $http, $routeParams) {
 		alert('You must logged in first before viewing this page.');
 		document.location = '#/login';
 	}else{
-		$http.get('http://ayala360.net/api/v1/favorites?token='+ sessionStorage.token +'&callback=JSON_CALLBACK').success(function(data){
+		$http.get('http://ayala360.net/api/v1/favorites?token='+ sessionStorage.token + '&callback=JSON_CALLBACK').success(function(data){
 			$scope.favorites = data;
 			sessionStorage.fave_id = data
 		});
