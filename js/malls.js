@@ -56,7 +56,7 @@ function FavoritesCtrl($scope, $http, $routeParams) {
 		alert('You must logged in first before viewing this page.');
 		document.location = '#/login';
 	}else{
-		$http.get('http://ayala360.net/api/v1/favorites?token='+ sessionStorage.token + '&callback=JSON_CALLBACK').success(function(data){
+		$http.get('http://ayala360.net/api/v1/favorites?token='+ sessionStorage.token + '&mall_id=' + $routeParams.mallId + '&callback=JSON_CALLBACK').success(function(data){
 			$scope.favorites = data;
 			sessionStorage.fave_id = data
 		});
@@ -65,11 +65,12 @@ function FavoritesCtrl($scope, $http, $routeParams) {
 	$scope.deleteFavorite = function(id){
 		confirm('Are you sure you want to delete this store to your favorites?');
 		$.ajax({
-			type:'DELETE',
+			type:'POST',
 			url: 'http://ayala360.net/api/v1/favorites',
-			data: 'store_location_id=' + id + '&token='+ sessionStorage.token +'&callback=JSON_CALLBACK',
+			data: 'store_location_id=' + id + '&token='+ sessionStorage.token + '&delete=true&callback=JSON_CALLBACK',
 			success: function(response) {
 				alert('You successfully deleted this store to your favorite list.');
+				location.reload();
 	        }
 	    });
 	}
