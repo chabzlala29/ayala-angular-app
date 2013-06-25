@@ -13,5 +13,6 @@ $(function(){
 		$('#favorites').show();
 		$('#delete-label').hide();
 		$('#delete-favorites').hide();
-	})
+	});
+	
 })

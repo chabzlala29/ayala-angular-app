@@ -58,8 +58,15 @@ function FavoritesCtrl($scope, $http, $routeParams) {
 	}else{
 		$http.get('http://ayala360.net/api/v1/favorites?token='+ sessionStorage.token + '&mall_id=' + $routeParams.mallId + '&callback=JSON_CALLBACK').success(function(data){
 			$scope.favorites = data;
-			sessionStorage.fave_id = data
+			sessionStorage.fave_id = data;
+			if(data.length == 0){
+			$('#fave-notifier').show();
+			}
+			if(data.length > 0){
+				$('#fave-notifier').hide();
+			}
 		});
+
 	}
 
 	$scope.deleteFavorite = function(id){
