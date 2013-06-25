@@ -25,7 +25,7 @@
 			<ul class="nav nav-tabs nav-stacked list-name" id="favorites">
 				<li ng-repeat="fave in favorites"><a href="#/{{mall_name}}/{{mall_id}}/stores/{{fave.store_location_id}}">{{fave.store_name}}</a></li>
 			</ul>
-			<h6 id="delete-label" style="display:none">Click on any time to delete from list.</h6>
+			<h6 id="delete-label" style="display:none">Click on any item in the list to delete.</h6>
 			<ul class="nav nav-tabs nav-stacked list-name" id="delete-favorites" style="display:none">
 				<li ng-repeat="fave in favorites"><a href="" ng-click="deleteFavorite(fave.store_location_id)">{{fave.store_name}}</a></li>
 			</ul>

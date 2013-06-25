@@ -80,10 +80,10 @@ function FavoritesCtrl($scope, $http, $routeParams) {
 		confirm('Are you sure you want to delete this store to your favorites?');
 		$.ajax({
 			type:'DELETE',
-			url: 'http://ayala360.net/api/v1/favorites?store_location_id=' + id + '&token='+ sessionStorage.token +'&callback=JSON_CALLBACK',
+			url: 'http://ayala360.net/api/v1/favorites',
+			data: 'store_location_id=' + id + '&token='+ sessionStorage.token +'&callback=JSON_CALLBACK',
 			success: function(response) {
 				alert('You successfully deleted this store to your favorite list.');
-
 	        }
 	    });
 	}
