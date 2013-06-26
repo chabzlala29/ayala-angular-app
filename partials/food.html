@@ -24,9 +24,10 @@
 		<div class="food-scrollable" id="scrollable">
 			<ul class="nav nav-tabs nav-stacked list-name" id="foods">
 				<li ng-repeat="food in foods">
-					<a href="#/{{mall_name}}/{{mall_id}}/food/{{food.id}}/store-details"</a>
-					{{stripName(food.name)}}
-					<div class="subtitle">{{getCat(food.store_id)}}</div>
+					<a href="#/{{mall_name}}/{{mall_id}}/food/{{food.id}}/store-details">
+						{{stripName(food.name)}}
+						<div class="subtitle">{{getCat(food.store_id)}}</div>
+					</a>
 				</li>
 			</ul>
 		</div>
