@@ -485,6 +485,7 @@ function MovieDetailsCtrl($scope, $routeParams, $http){
 	$http.get('http://ayala360.net/api/v1/sureseats_api_json_version?action=nowshowing&callback=JSON_CALLBACK').success(function(data){
 		 $.each(data['Movie']['Now_Showing'], function(index, item){
 		 	if($routeParams.movieTitle == item.movie_title){
+		 		$scope.movie_id = item.id;
 		 		$scope.artists = item.cast;
 		 		$scope.synopsis = item.synopsis;
 		 		$scope.picture = item.picture;
