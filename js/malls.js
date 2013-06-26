@@ -159,8 +159,15 @@ function MallFeatureCtrl($scope, $routeParams, $http) {
 	  		}
 	  	})
   	});
+
+  	$('#mall-location').click(function(){
+  		if(!$scope.coordn8s){
+  			alert("Doesn't have map coordinates.");
+  		}
+  	})
 }
 function showMap(coordn8s) {
+
 	coords = coordn8s;
 	coordinates = coords.split(",");
 
@@ -186,9 +193,7 @@ function StoresCtrl($scope, $routeParams, $http, Store, Category){
 	$scope.mall_name = $routeParams.mallName;
 	$scope.mall_id = $routeParams.mallId;
 	$scope.query_category = '';
-
 	$scope.categories = Category.query();
-
 	$scope.myFilter = function(letter){
 		var $array = new Array();
 		if(letter){

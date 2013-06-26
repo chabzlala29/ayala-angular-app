@@ -5,9 +5,9 @@ factory('Mall', function($resource){
   });
 }).
 factory('Store', function($resource){
-  return $resource('http://ayala360.net/api/v1/malls/:mallId/stores?callback=JSON_CALLBACK', {}, {
-    query: {method:'GET', isArray:true}
-  });
+    return $resource('http://ayala360.net/api/v1/malls/:mallId/stores?callback=JSON_CALLBACK', {}, {
+      query: {method:'GET', isArray:true}
+    });
 }).
 factory('StoreDetails', function($resource){
   return $resource('http://ayala360.net/api/v1/stores/:storeId?callback=JSON_CALLBACK', {}, {
@@ -23,6 +23,7 @@ factory('Promos', function($resource){
   return $resource('http://ayala360.net/api/v1/malls/:mallId/announcements?callback=JSON_CALLBACK', {}, {
     query: {method:'GET', isArray:true}
   });
+
 }).
 factory('Food', function($resource){
   return $resource('http://ayala360.net/api/v1/malls/:mallId/foods?callback=JSON_CALLBACK', {}, {
