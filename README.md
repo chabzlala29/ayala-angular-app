@@ -1,5 +1,6 @@
-ayala-angular-app
+Ayala Angular App
 =================
+It's an app made from AngularJS.
 
 <h2>How to get the repository</h2>
 ```
